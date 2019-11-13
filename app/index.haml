@@ -1,0 +1,342 @@
+!!!
+%html{ lang: 'en' }
+  %head
+    %meta{ charset: 'UTF-8' }/
+    %meta{ content: 'width=device-width, initial-scale=1.0', name:'viewport' }/
+    %title Cincel
+    %link{:crossorigin => "anonymous", :href => "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", :integrity => "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", :rel => "stylesheet"}/
+    %link{ rel: 'stylesheet', href:'assets/css/font-awesome.css' }/
+    %link{ rel: 'stylesheet', href:'assets/css/font-awesome.css' }/
+    %link{ rel: 'stylesheet', href:'assets/css/slick-theme.css' }/
+    %link{ rel: 'stylesheet', href:'assets/css/slick.css' }/
+    %link{ rel: 'stylesheet', href:'assets/css/main.css' }/
+    %link{ rel: 'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css' }/
+    %link{:href => "assets/img/favicon.png", :rel => "shortcut icon"}/
+    %link{ href:'https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Open+Sans:300,400,600,700,800|Poppins:100,200,300,400,500,600,700,800,900&display=swap',  rel:'stylesheet' }/
+  %body
+    %header.fixed-top.navbar-fixed-js
+      .main-prenavbar
+        .container
+          .prenavbar-container  
+            %p
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            %ul.main-prenavbar__rrss.d-flex.align-items-center
+              %li
+                %a.main-prenavbar__button{:href=>""} PRÓXIMOS EVENTOS
+              %li
+                %a{:target=>"_blank", :href=>""}
+                  %img{:src=> 'assets/img/facebook@3x.png'}
+              %li
+                %a{:target=>"_blank", :href=>""}
+                  %img{:src=> 'assets/img/linkedin@3x.png'}
+              %li
+                %a{:target=>"_blank", :href=>""}
+                  %img{:src=> 'assets/img/youtube@3x.png'}         
+      %nav.navbar.navbar-expand-lg
+        .container
+          .main-brand__top
+            .main-brand
+              %a.navbar-brand{ :href => 'index.html' }
+                %img#iso{ :src => 'assets/img/logo@3x.png', :alt=>"Logo Cincel"}/ 
+          .main-brand__fixed
+            .main-brand
+              %a.navbar-brand{ :href => 'index.html' }
+                %img#iso{ :src => 'assets/img/logo@3x.png', :alt=>"Logo Cincel" }/ 
+          .main-brand.brand-responsive
+            %a.navbar-brand{ :href => 'index.html' }
+              %img#iso{ :src => 'assets/img/logo@3x.png', :alt=>"Logo Cincel"}/ 
+            %button.navbar-toggler.p-2.border-0.hamburger.hamburger--elastic.ml-autos{ 'data-toggle' => 'offcanvas', :type => 'button' }
+              %span.hamburger-box
+              %span.hamburger-inner
+          .navbar-collapse.offcanvas-collapse
+            %ul.navbar-nav.mr-autos
+              %li.dropdown.nav-item
+                %a.nav-link{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+                  Soluciones
+                -# %ul.dropdown-menu
+                -#   %li
+                -#     %a{:href => "attraction-and-talent-selection.html"} 
+                -#   %li
+                -#     %a{:href => "youth-program.html"} 
+                -#   %li
+                -#     %a{:href => "career-development.html"} 
+                -#   %li
+                -#     %a{:href => "evaluation-and-career.html"} Zona de Clientes
+                -#   %li
+                -#     %a{:href => "inhouse-consultant.html"} 
+                -#   %li
+                -#     %a{:href => "employer-brand.html"} Marca empleadora
+              %li.dropdown.nav-item
+                %a.nav-link{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+                  Nuestro Valor
+                -# %ul.dropdown-menu
+                -#   %li
+                -#     %a{:href => "diversity-and-inclusion.html"} Diversidad e inclusión
+                -#   %li
+                -#     %a{:href => "future-of-work.html"} Futuro del trabajo
+                -#   %li
+                -#     %a{:href => "future-of-education.html"} Futuro de la educación
+                -#   %li
+                -#     %a{:href => "brand-building.html"} Construcción de marca empleadora
+                -#   %li
+                -#     %a{:href => "dream-race.html"} Carrera de los sueños de los jovenes
+              %li.nav-item
+                %a.nav-link{:target=>"_blank", :data-toggle => 'offcanvas', :href => "https://www.elempleo.com/sitios-empresariales/colombia/consultores-organizacionales", :role => "button"}
+                  Nosotros
+                -# %ul.dropdown-menu
+                -#   %li
+                -#     %a{:href => "index.html"} Media y alta gerencia
+                -#   %li
+                -#     %a{:href => "index.html"} Profesionales
+              %li.dropdown.nav-item
+                %a.nav-link{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+                  Blog
+                -# %ul.dropdown-menu
+                -#   %li
+                -#     %a{:href => "career-tips.html"} Consejos de carrera
+                -#   %li
+                -#     %a{:href => "human-management.html"} Gestión humana como aliado estratégico del negocio 
+              %li.nav-item
+                %a.nav-link{:href => 'about.html',:data-toggle => 'offcanvas' } Zona de Clientes
+              %li.nav-item
+                %a.nav-link.main-general__button{:href => 'about.html',:data-toggle => 'offcanvas' } Contáctanos
+            %ul.main-rrss__responsive
+              %li
+                %img{:src=>'assets/img/social-linkedin-circular-button_4@3x.png'}
+              %li
+                %img{:src=>'assets/img/facebook-logo-in-circular-button-outlined-social-symbol_2@3x.png'}
+              %li
+                %img{:src=>'assets/img/social-linkedin-circular-button_5@3x.png'}
+              %li
+                %img{:src=>'assets/img/social-linkedin-circular-button_6@3x.png'}
+    %section.main-banner
+      .main-banner__content
+        .main-banner__item
+          .main-banner__text.wow.animated.fadeInRight{:style=>"visibility: visible; animation-delay: .3s  ;"}
+            .container
+              .main-banner__title
+                %p 
+                  eiusmod tempor incididunt
+              .main-banner__subtitle 
+                %p  
+                  Nostru exercitation amco laboris alique occaecat cupidal proident sunt in culpa 
+              %br              
+              %a.main-general__button{:href=>''}Lorem Ipsum
+          .main-banner__img
+            %img{:src=>"assets/img/bg-image.png", :alt=>"Imagen Banner"}/
+    %section.main-services
+      .container.padding-top-bottom
+        .container-grid
+          .item-grid
+            .main-service__icon
+              %img{:src=>'assets/img/icon_5@3x.png', :alt=>'Icono de servicio'}
+          .item-grid  
+            %p.main-general__title
+              Nuestros 
+            %h2.main-general__subtitle
+              Servicios
+            %p.main-general__description
+              Lorem ipsum dolor sit amet, consectetur adipisicing elitos, sed do eiusmod tempor incididunt ut labore et dolore los magni nostrud exercitation ullamco laboris nisi utaliquip. x commodo  nulla pariatur aute irure dolor in reprehenderit in voluptate velit consequat.
+            
+            %p.main-general__description
+                Duis  esse cillum dolore eu fugiat . Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            .mt-btn
+              %a.main-general__button{:href=>''}Lorem Ipsum
+        .main-service__items
+          .container-grid
+            .main-service__card{:style=>"background-image: url('assets/img/bg_4@3x.png')"}
+              .service-card__title
+                %p
+                  %span 
+                    Punto 
+                  de partida
+                %p.service-card__rectangle
+                  Diagnostico
+              %p.service-card__description
+                Hay varios temas para redireccionar a otra aplicación.
+              .service-card__mask
+            .main-service__card{:style=>"background-image: url('assets/img/image_4@3x.png')"}
+              .service-card__title
+                %p  
+                  %span 
+                    Camino 
+                  al cambio 
+                %p.service-card__rectangle
+                  Intervención
+              %p.service-card__description
+                intervención, desarrollo de liderazgo, interacción con grupos y personas
+              .service-card__mask
+            .main-service__card{:style=>"background-image: url('assets/img/image_5@3x.png')"}
+              .service-card__title
+                %p
+                  %span A la medida
+                %p.service-card__rectangle
+                  Investigación & diseño
+              %p.service-card__description
+                Investigación y diseño, cosas más especializadas, servicio exclusivo. 
+              .service-card__mask
+            .main-service__card{:style=>"background-image: url('assets/img/image_6@3x.png')"}
+              .service-card__title
+                %p
+                  %span Espacios 
+                  con-ciencia 
+                %p.service-card__rectangle
+                  Divulgación del conocimineto
+              %p.service-card__description
+                Espacios conciencia, revistas, portafolio de conferencias (conferencias, simposios).
+    %section.main-team
+      %img.main-team__bg{:src=>'assets/img/bg_3.png'}
+      .container.padding-top-bottom
+        .main-team__icon
+          %img{'data-src'=>'assets/img/icon-idea@3x.png', :alt=>'Icon Team'}
+        %p.main-general__title.main-general__title--center
+          Nuestro
+        %p.main-general__subtitle.main-general__subtitle--center
+          Valor Agregado
+        .container-grid 
+          .main-team__for
+            .slider-for
+              .main-team__item
+                .d-flex.justify-content-end
+                  %img{'data-src'=>'assets/img/image-1@3x.png', :alt=>'Imagen Team'}
+              .main-team__item
+                .d-flex.justify-content-end              
+                  %img{'data-src'=>'assets/img/image-2_2@3x.png', :alt=>'Imagen Team'}
+              .main-team__item
+                .d-flex.justify-content-end
+                  %img{'data-src'=>'assets/img/image-3@3x.png', :alt=>'Imagen Team'}
+              .main-team__item
+                .d-flex.justify-content-end
+                  %img{'data-src'=>'assets/img/image-4@3x.png', :alt=>'Imagen Team'}
+              .main-team__item
+                .d-flex.justify-content-end
+                  %img{'data-src'=>'assets/img/image-4@3x.png', :alt=>'Imagen Team'}
+          .main-team__nav  
+            %p.main-general__title.main-general__title--orange
+              Nuestro Equipo
+            .slider-for
+              .main-team__description
+                %p.main-team__title
+                  Lorem Ipsum
+                %p.main-general__description
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elitos, sed do eiusmod tempor incididunt ut labore et dolore los magni nostrud exercitation ullamco laboris
+              .main-team__description
+                %p.main-team__title
+                  Lorem Ipsum
+                %p.main-general__description
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elitos, sed do eiusmod tempor incididunt ut labore et dolore los magni nostrud exercitation ullamco laboris
+              .main-team__description
+                %p.main-team__title
+                  Lorem Ipsum
+                %p.main-general__description
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elitos, sed do eiusmod tempor incididunt ut labore et dolore los magni nostrud exercitation ullamco laboris
+              .main-team__description
+                %p.main-team__title
+                  Lorem Ipsum
+                %p.main-general__description
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elitos, sed do eiusmod tempor incididunt ut labore et dolore los magni nostrud exercitation ullamco laboris
+              .main-team__description
+                %p.main-team__title
+                  Lorem Ipsum
+                %p.main-general__description
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elitos, sed do eiusmod tempor incididunt ut labore et dolore los magni nostrud exercitation ullamco laboris
+            .slider-nav
+              .main-team__item
+                %img{'data-src'=>'assets/img/image-1@3x.png', :alt=>'Imagen Team'}
+              .main-team__item
+                %img{'data-src'=>'assets/img/image-2_2@3x.png', :alt=>'Imagen Team'}
+              .main-team__item
+                %img{'data-src'=>'assets/img/image-3@3x.png', :alt=>'Imagen Team'}
+              .main-team__item
+                %img{'data-src'=>'assets/img/image-4@3x.png', :alt=>'Imagen Team'}
+              .main-team__item
+                %img{'data-src'=>'assets/img/image-4@3x.png', :alt=>'Imagen Team'}
+    %section.main-events
+      .container.padding-top-bottom
+        .container-grid 
+          .main-events__item
+            .main-event__calendar
+              %img.img-fluid{'data-src'=>"assets/img/image@3x.png", :alt=>"Imagen Calendar"} 
+          .main-events__item
+            %p.main-general__title
+              Próximos
+            %p.main-general__subtitle
+              Eventos
+              %span.main-events__line
+            .main-events__container
+              .main-events__card
+                .main-events__icon
+                  %img.img-fluid{'data-src'=>"assets/img/icon@3x.png", :alt=>"Icon Calendar"} 
+                %p.main-events__title
+                  Lorem Ipsum is simply dummy  
+                %p.main-events__description
+                  Text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+              .main-events__card
+                .main-events__icon
+                  %img.img-fluid{'data-src'=>"assets/img/icon_2@3x.png", :alt=>"Icon Calendar"} 
+                %p.main-events__title
+                  Lorem Ipsum is simply dummy  
+                %p.main-events__description
+                  Text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+              .main-events__card
+                .main-events__icon
+                  %img.img-fluid{'data-src'=>"assets/img/icon_3@3x.png", :alt=>"Icon Calendar"} 
+                %p.main-events__title
+                  Lorem Ipsum is simply dummy  
+                %p.main-events__description
+                  Text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+              .main-events__card
+                .main-events__icon
+                  %img.img-fluid{'data-src'=>"assets/img/icon_4@3x.png", :alt=>"Icon Calendar"} 
+                %p.main-events__title
+                  Lorem Ipsum is simply dummy  
+                %p.main-events__description
+                  Text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    %section.main-subscribe
+      %img.main-subscribe__bg{:src=>"assets/img/image-bg@3x.png"}
+      .container.padding-top-bottom
+        .container-grid
+          .main-subscribe__item
+            %p.main-subscribe__title
+              Suscríbete
+            %p.main-subscribe__subtitle
+              Suscríbete y entérate de nuestros últimos productos y noticias
+            .main-subscribe__grid 
+              %label
+                %img{:src=>"assets/img/close-envelope@3x.png"}
+                %input(type="text"  placeholder="Email")/
+              %label
+                %img{:src=>"assets/img/icon-user@3x.png"}
+                %input(type="text" placeholder="Nombre" )/
+            .d-flex.justify-content-center.mt-3
+              %a.main-subscribe__button Enviar
+    %footer.main-footer
+      %img.main-footer__bg{:src=>"assets/img/bg@3x.png"}
+      .container.padding-top-bottom
+        .container-grid
+          .main-footer__rrss
+            %img{:src=>"assets/img/logo@3x.png"}
+            %p.main-general__description Redes Sociales
+            %ul.main-footer__icon
+              %li
+                %a{:href=>""}
+                  %img{:src=>"assets/img/icon-facebook-06@3x.png", :alt=>""}/
+          .main-footer__sistemap
+          .main-footer__form
+      .main-powered 
+        %p
+          Copyright © 2019 
+          %a{:href=>"https://sigma.la/"}Sigma Studios 
+    .main-whatsapp
+      %a{:target=>"_blank", :href=>"https://wa.me/573176383948"}
+        %img{'data-src'=>"assets/img/whatsapp.png", :alt=>"Logo Whatsapp"}
+
+    %script{src: 'assets/js/jquery.min.js' }
+    %script{:crossorigin => "anonymous", :integrity => "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1", :src => "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"}
+    %script{:crossorigin => "anonymous", :integrity => "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM", :src => "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"}
+    %script{src: 'assets/js/slick.min.js' }
+    %script{src: 'assets/js/setting-slick.js' }
+    %script{src: 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js' }
+    %script{src: 'https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js' }
+    %script{src: 'assets/js/main.js' }
+

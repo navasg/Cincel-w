@@ -261,18 +261,52 @@
         .d-flex.justify-content-center
           .main-clients__width
             .main-clients__slider-for
-              %p.main-general__description
+              %p.main-general__description.main-general__description--center
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magni nostrud exercitation ullamco laborisjkjk nisi utaliquip ex commodo consequat.
-              %p.main-general__description
+              %p.main-general__description.main-general__description--center
                 Lorem ipsum dolor sit amet,kk consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magni nostrud 
-              %p.main-general__description
+              %p.main-general__description.main-general__description--center
                 Lorem ipsum dolor sit amet, conse,jmctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magni nostrud 
-              %p.main-general__description
+              %p.main-general__description.main-general__description--center
                 Lorem ipsum dolor sit amet, conskhhkectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magni nostrud 
             .main-clients__slider-nav
-              %img.main-clients__img{:src=>"assets/img/image_3@3x.png"}
-              %img.main-clients__img{:src=>"assets/img/image_3@3x.png"}
-              %img.main-clients__img{:src=>"assets/img/image_3@3x.png"}
+              .main-clients__img
+                .d-flex.align-items-center.flex-column
+                  %img{:src=>"assets/img/image_3@3x.png"}
+                  %p.main-clients__name Lorem Ipsum
+              .main-clients__img
+                .d-flex.align-items-center.flex-column
+                  %img{:src=>"assets/img/image_3@3x.png"}
+                  %p.main-clients__name Lorem Ipsum
+              .main-clients__img
+                .d-flex.align-items-center.flex-column 
+                  %img{:src=>"assets/img/image_3@3x.png"}
+                  %p.main-clients__name Lorem Ipsum
+    %section.main-blog
+      %img.main-blog__bg{:src=>"assets/img/bg_2@3x.png"}
+      .container.padding-top-bottom
+        .container-grid
+          .main-blog__item
+            %p.main-general__title
+              Nuestros
+            %p.main-general__subtitle
+              Blog
+            .main-blog__post
+              %img.main-post__img{:src=>"assets/img/image_2@3x.png"}
+              %p.main-post__title
+                EL SÍNDROME DE BOREOUT Y BURNOUT, UN ESTRECHO VÍNCULO POR ESCLARECER
+                %span.main-general__line
+              %p.main-general__description
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magni nostrud exercitation ullamco laboris nisi utaliquip ex commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magni nostrud exercitation ullamco laboris nisi utaliquip ex commodo consequat.  
+              .main-blog__buttons
+                %a.main-general__button{:href=>''}Ver Más
+                %a.main-general__button{:href=>''}Ver todos
+
+
+
+
+          .main-blog__item
+            %img.main-blog__img{:src=>'assets/img/image-2@3x.png'}
     %section.main-events
       .container.padding-top-bottom
         .container-grid 
@@ -388,7 +422,7 @@
               %input(type="text" placeholder="Asunto")/
               %textarea(name="" placeholder="Mensaje"  cols="30" rows="10")
             %br
-            .d-flex.justify-content-center
+            .d-flex.justify-content-center.mb-3
               %a.main-form__button{:href=>""} Enviar 
 
       .main-powered 

@@ -381,15 +381,35 @@
   .slick-prev:before,
   .slick-next:before {
     color: $orange;
-    font-size: 26px;
+    font-size: 34px;
   }
 
   .slick-prev {
     left: -4rem;
     right: initial;
+
   }
 
   .slick-next {
     right: -1rem;
+  }
+}
+
+.main-clients__slider-nav {
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: $orange;
+    font-size: 26px;
+  }
+
+  .slick-prev {
+    left: 2rem;
+    z-index: 1;
+  }
+
+  .slick-next {
+    right: 2rem;
+    z-index: 1;
   }
 }

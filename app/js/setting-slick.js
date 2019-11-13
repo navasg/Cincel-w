@@ -200,13 +200,17 @@ $('.main-clients__slider-for').slick({
   slidesToScroll: 1,
   arrows: false,
   fade: true,
+  infinite: true,
+
   asNavFor: '.main-clients__slider-nav'
 });
 $('.main-clients__slider-nav').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   asNavFor: '.main-clients__slider-for',
-  dots: true,
-  centerMode: true,
+  dots: false,
+  arrows: true,
+  centerMode: false,
+  infinite: true,
   focusOnSelect: true
 });

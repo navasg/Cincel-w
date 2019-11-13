@@ -232,6 +232,10 @@ button:focus {
   color: #494949;
 }
 
+.main-general__description--center {
+  text-align: center;
+}
+
 .main-general__title--orange {
   color: $orange;
 }
@@ -750,12 +754,91 @@ button:focus {
 .main-clients {
   .main-clients__width {
     width: 50%;
+    margin-top: 1rem;
+  }
+
+  .main-clients__name {
+    font-family: $opensans;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
   }
 
   .main-general__line {
     left: 50%;
     transform: translateX(-50%);
     bottom: -22px;
+  }
+
+  .main-clients__img {
+    img {
+      width: 5rem;
+    }
+  }
+}
+
+.main-blog {
+  position: relative;
+
+  .main-blog__bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .main-general__description {
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .container-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+  }
+
+  .main-blog__img {
+    width: 100%;
+  }
+
+  .main-blog__buttons {
+    margin-top: 2.5rem;
+
+    .main-general__button {
+      padding: .5rem 1rem;
+
+      &:nth-child(1) {
+        margin-right: 6rem;
+      }
+    }
+  }
+
+  .main-post__title {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    display: -webkit-box;
+    position: relative;
+    // display: -moz-box;
+    // -webkit-line-clamp: 2;
+    // -webkit-box-orient: vertical;
+    // -moz-box-orient: vertical;
+    // overflow: hidden;
+
+    & .main-general__line {
+      bottom: -14px;
+      left: 0;
+    }
+
+
+  }
+
+  .main-post__img {
+    width: 100%;
   }
 }
 
@@ -843,7 +926,7 @@ button:focus {
     top: -8rem;
     height: 33rem;
     z-index: -1;
-    height: 600px;
+    height: 608px;
     position: absolute;
   }
 
@@ -896,6 +979,11 @@ button:focus {
 }
 
 .main-footer {
+  .padding-top-bottom {
+    padding-top: 6.5rem;
+    padding-bottom: 0;
+  }
+
   position: relative;
 
   .main-footer__bg {
@@ -904,8 +992,7 @@ button:focus {
     top: -12rem;
     /* object-fit: contain; */
     z-index: -1;
-    height: auto;
-
+    height: 622px;
   }
 
   .container-grid {
@@ -923,6 +1010,7 @@ button:focus {
 
     & img {
       width: 16rem;
+      margin-top: 2rem;
     }
   }
 

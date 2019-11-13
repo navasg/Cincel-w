@@ -1140,6 +1140,10 @@ button:focus {
   right: 3rem;
 }
 
+.main-whatsapp img {
+  width: 4rem;
+}
+
 .main-services .main-general__description {
   margin-bottom: 1.5rem;
 }

@@ -413,3 +413,34 @@
     z-index: 1;
   }
 }
+
+.main-about__carousel {
+  img.slick-slide.slick-current.slick-active.slick-center {
+    height: 18rem;
+    width: 17rem !important;
+    transform: translateY(-1rem);
+  }
+
+  .slick-slide img {
+    width: 15rem;
+  }
+
+  .slick-slide.slick-current.slick-active.slick-center img {
+    width: 17rem;
+    position: relative;
+    z-index: 1;
+    left: -1.5rem;
+    top: -1rem;
+  }
+
+
+
+  .slick-list {
+    margin: 0px 35px;
+    padding: 0 !important;
+  }
+
+  .slick-track {
+    padding: 2rem 0;
+  }
+}

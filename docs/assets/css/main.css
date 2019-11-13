@@ -542,6 +542,33 @@ body {
   z-index: 1;
 }
 
+.main-about__carousel img.slick-slide.slick-current.slick-active.slick-center {
+  height: 18rem;
+  width: 17rem !important;
+  transform: translateY(-1rem);
+}
+
+.main-about__carousel .slick-slide img {
+  width: 15rem;
+}
+
+.main-about__carousel .slick-slide.slick-current.slick-active.slick-center img {
+  width: 17rem;
+  position: relative;
+  z-index: 1;
+  left: -1.5rem;
+  top: -1rem;
+}
+
+.main-about__carousel .slick-list {
+  margin: 0px 35px;
+  padding: 0 !important;
+}
+
+.main-about__carousel .slick-track {
+  padding: 2rem 0;
+}
+
 html {
   font-size: 14px;
   scroll-behavior: smooth;
@@ -1230,7 +1257,6 @@ button:focus {
   transform: translateY(-27rem);
   z-index: -1;
   width: 100%;
-  height: 10rem;
 }
 
 .main-team .main-team__icon {
@@ -1269,6 +1295,19 @@ button:focus {
   flex-direction: column;
   margin: 0 9rem 0 5rem;
   justify-content: flex-end;
+}
+
+.main-about .container-grid {
+  grid-template-columns: 60% 40%;
+}
+
+.main-about .main-about__description {
+  margin-left: 2rem;
+}
+
+.main-about .padding-top-bottom {
+  padding-top: 14rem;
+  padding-bottom: 9rem;
 }
 
 .main-clients .main-clients__width {

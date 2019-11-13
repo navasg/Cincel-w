@@ -251,6 +251,28 @@
                 %img{'data-src'=>'assets/img/image-4@3x.png', :alt=>'Imagen Team'}
               .main-team__item
                 %img{'data-src'=>'assets/img/image-4@3x.png', :alt=>'Imagen Team'}
+    %section.main-clients
+      .container.padding-top-bottom
+        %p.main-general__title.main-general__title--center.main-general__title--orange
+          Clientes
+        %p.main-general__subtitle.main-general__subtitle--center.main-general__subtitle--gray
+          Casos de éxito
+          %span.main-general__line
+        .d-flex.justify-content-center
+          .main-clients__width
+            .main-clients__slider-for
+              %p.main-general__description
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magni nostrud exercitation ullamco laborisjkjk nisi utaliquip ex commodo consequat.
+              %p.main-general__description
+                Lorem ipsum dolor sit amet,kk consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magni nostrud 
+              %p.main-general__description
+                Lorem ipsum dolor sit amet, conse,jmctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magni nostrud 
+              %p.main-general__description
+                Lorem ipsum dolor sit amet, conskhhkectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magni nostrud 
+            .main-clients__slider-nav
+              %img.main-clients__img{:src=>"assets/img/image_3@3x.png"}
+              %img.main-clients__img{:src=>"assets/img/image_3@3x.png"}
+              %img.main-clients__img{:src=>"assets/img/image_3@3x.png"}
     %section.main-events
       .container.padding-top-bottom
         .container-grid 
@@ -262,7 +284,7 @@
               Próximos
             %p.main-general__subtitle
               Eventos
-              %span.main-events__line
+              %span.main-general__line
             .main-events__container
               .main-events__card
                 .main-events__icon
@@ -321,12 +343,58 @@
               %li
                 %a{:href=>""}
                   %img{:src=>"assets/img/icon-facebook-06@3x.png", :alt=>""}/
-          .main-footer__sistemap
+              %li
+                %a{:href=>""}
+                  %img{:src=>"assets/img/icon-linkedin@3x.png", :alt=>""}/
+              %li
+                %a{:href=>""}
+                  %img{:src=>"assets/img/icon-youtube@3x.png", :alt=>""}/
+          .main-footer__sitemap
+            %ul.main-sitemap__service
+              .main-sitemap__title
+                %p Servicios
+                %img{:src=>"assets/img/icon-light-03@3x.png"}
+              %li
+                %a.main-general__description{:href=>""} Punto de Partida 
+              %li
+                %a.main-general__description{:href=>""} Camino al cambio 
+              %li
+                %a.main-general__description{:href=>""} A la medida 
+              %li
+                %a.main-general__description{:href=>""} Espacios con-ciencias
+              %li
+                %a.main-general__description{:href=>""} Política de protección de datos personales
+            %ul.main-sitemap__contact
+              .main-sitemap__title
+                %p Contacto
+                %img{:src=>"assets/img/icon-menu@3x.png"}
+              %li
+                %a{:href=>""} Cra 25A No. 1-31 Of. 1102 Medellín
+              %li
+                %a{:href=>""} Medellín, (574) 444 15 46 - (57) 300 640 17 00
+              %li
+                %a{:href=>""} Bogotá, (571) 482 32 35
+              %li
+                %a{:href=>""} info@cincel.com
           .main-footer__form
+            %p.main-sitemap__title Escríbenos
+            %form
+              %input(type="text" placeholder="Nombre")/
+              %input(type="text" placeholder="Email")/
+              %input(type="text" placeholder="Teléfono")/
+              %input(type="text" placeholder="Cargo")/
+              %input(type="text" placeholder="Empresa")/
+              %input(type="text" placeholder="Ciudad")/
+              %input(type="text" placeholder="Asunto")/
+              %textarea(name="" placeholder="Mensaje"  cols="30" rows="10")
+            %br
+            .d-flex.justify-content-center
+              %a.main-form__button{:href=>""} Enviar 
+
       .main-powered 
-        %p
-          Copyright © 2019 
-          %a{:href=>"https://sigma.la/"}Sigma Studios 
+        %p Copyright © 2019 
+        %a{:href=>"https://sigma.la/"} Sigma Studios 
+        %p - Sitios Web
     .main-whatsapp
       %a{:target=>"_blank", :href=>"https://wa.me/573176383948"}
         %img{'data-src'=>"assets/img/whatsapp.png", :alt=>"Logo Whatsapp"}

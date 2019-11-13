@@ -388,10 +388,24 @@
     left: -4rem;
     right: initial;
 
+    @include respond-to(xs) {
+      // right: 2rem;
+      /* bottom: -14px; */
+      right: 6rem;
+      left: inherit;
+      top: 8rem;
+    }
+
   }
 
   .slick-next {
     right: -1rem;
+
+    @include respond-to(xs) {
+      right: 2rem;
+      /* bottom: -14px; */
+      top: 8rem;
+    }
   }
 }
 
@@ -419,6 +433,11 @@
     height: 18rem;
     width: 17rem !important;
     transform: translateY(-1rem);
+
+    @include respond-to(sm) {
+      height: 100%;
+      width: 100%;
+    }
   }
 
   .slick-slide img {
@@ -435,6 +454,12 @@
     z-index: 1;
     left: -1.5rem;
     top: -1rem;
+
+    @include respond-to(sm) {
+      left: initial;
+      top: initial;
+      width: 100%;
+    }
   }
 
 

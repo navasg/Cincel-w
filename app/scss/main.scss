@@ -665,10 +665,21 @@ button:focus {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 31rem;
     grid-gap: 20px;
+
+    @include respond-to(xs) {
+      grid-template-columns: 100%;
+      grid-template-rows: 41rem;
+    }
+
+    @include respond-to(sm) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 41rem;
+
+    }
   }
 
   .main-service__card {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 2rem 0;
     position: relative;
@@ -681,6 +692,14 @@ button:focus {
     &:hover {
       transition: .3s;
       transform: translateY(-2rem)
+    }
+
+    @include respond-to(xs) {
+      height: 41rem;
+    }
+
+    @include respond-to(sm) {
+      height: 41rem;
     }
   }
 
@@ -727,6 +746,21 @@ button:focus {
 
 .main-team {
   position: relative;
+
+  .padding-top-bottom {
+    @include respond-to(sm) {
+      padding-top: 0;
+    }
+
+  }
+
+  .main-team__item {
+    .justify-content-end {
+      @include respond-to (xs) {
+        justify-content: center !important;
+      }
+    }
+  }
 
   .main-team__bg {
     position: absolute;
@@ -786,6 +820,8 @@ button:focus {
 
     @include respond-to(xs) {
       margin: 0;
+      text-align: center;
+      margin-top: 3rem;
     }
   }
 }
@@ -795,6 +831,10 @@ button:focus {
   .main-about__icon {
     position: relative;
     height: 16rem;
+
+    @include respond-to(xs) {
+      display: none;
+    }
 
     & img {
       position: absolute;
@@ -819,6 +859,14 @@ button:focus {
   .padding-top-bottom {
     padding-top: 0;
     padding-bottom: 9rem;
+
+    @include respond-to (xs) {
+      padding-bottom: 5rem;
+    }
+
+    @include respond-to (sm) {
+      padding-bottom: 5rem;
+    }
   }
 
 
@@ -861,6 +909,10 @@ button:focus {
     position: absolute;
     z-index: -1;
     width: 100%;
+
+    @include respond-to(xs) {
+      height: 100%;
+    }
   }
 
   .main-general__description {
@@ -931,6 +983,10 @@ button:focus {
     @include respond-to(xs) {
       grid-template-columns: 100%;
     }
+
+    @include respond-to(sm) {
+      grid-template-columns: 100%;
+    }
   }
 
   .main-event__calendar {
@@ -945,6 +1001,11 @@ button:focus {
       z-index: -1;
 
       @include respond-to(xs) {
+        position: initial;
+        margin-bottom: 2rem;
+      }
+
+      @include respond-to(sm) {
         position: initial;
         margin-bottom: 2rem;
       }
@@ -994,6 +1055,14 @@ button:focus {
 
   .container-grid {
     grid-template-columns: 60% 40%;
+
+    @include respond-to(xs) {
+      grid-template-columns: 100%;
+    }
+
+    @include respond-to(sm) {
+      grid-template-columns: 100%;
+    }
   }
 
   .main-subscribe__item {
@@ -1029,11 +1098,17 @@ button:focus {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
+    @include respond-to (xs) {
+      grid-template-columns: 100%;
+      gap: 18px;
+
+    }
+
     & img {
       width: 3rem;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
       padding: .5rem;
-      height: 100%;
+      height: 3rem;
       background-color: #bebebe;
       object-fit: contain;
     }
@@ -1092,6 +1167,10 @@ button:focus {
 
   .container-grid {
     grid-template-columns: repeat(3, 1fr);
+
+    @include respond-to(xs) {
+      grid-template-columns: 100%;
+    }
   }
 
   .main-general__description {
@@ -1190,10 +1269,14 @@ button:focus {
   form {
     display: grid;
     grid-gap: 8px;
-
     grid-template-columns: repeat(2, 1fr);
     /* width: 50%; */
     flex-wrap: wrap;
+
+    @include respond-to(xs) {
+      grid-template-columns: 100%;
+      display: initial;
+    }
 
     & input {
       // width: 50%;
@@ -1204,6 +1287,11 @@ button:focus {
 
       &:nth-child(7) {
         grid-column: 1/3
+      }
+
+      @include respond-to(xs) {
+        width: 100%;
+        margin-bottom: .5rem;
       }
     }
 

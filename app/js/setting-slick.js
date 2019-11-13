@@ -194,18 +194,18 @@ $('.slider-nav').slick({
   infinite: true,
   focusOnSelect: true,
   responsive: [{
-      breakpoint: 768,
+      breakpoint: 997,
       settings: {
         arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
+        // centerMode: true,
+        // centerPadding: '40px',
         slidesToShow: 3
       }
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 0
+        slidesToShow: 3
       }
     }
   ]
@@ -236,12 +236,12 @@ $('.main-about__carousel').slick({
   // centerPadding: '60px',
   slidesToShow: 3,
   responsive: [{
-      breakpoint: 768,
+      breakpoint: 997,
       settings: {
         arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
+        // centerMode: true,
+        // centerPadding: '40px',
+        slidesToShow: 1
       }
     },
     {

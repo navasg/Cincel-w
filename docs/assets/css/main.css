@@ -624,6 +624,10 @@ html {
   }
 }
 
+a:hover {
+  color: #ffffff;
+}
+
 *,
 *:hover,
 *:focus {

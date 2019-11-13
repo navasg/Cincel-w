@@ -4,13 +4,12 @@ body {
   /* Prevent scroll on narrow devices */
 }
 
-body {
-}
+body {}
 
 @media (max-width: 768px) {
   .offcanvas-collapse {
     position: fixed;
-    top: 8.5rem;
+    top: 5.3rem;
     /* Height of navbar */
     bottom: 0;
     left: 100%;
@@ -19,7 +18,7 @@ body {
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: $blue;
+    background-color: #4b779e;
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     transition-property: left, visibility;
@@ -112,7 +111,7 @@ body {
 .hamburger-inner::after {
   width: 35px;
   height: 3px;
-  background-color: $lightBlack;
+  background-color: $white;
   border-radius: 3px;
   position: absolute;
   transition-property: transform;

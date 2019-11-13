@@ -100,6 +100,10 @@ body {
   font-size: .9rem;
   padding: .5rem;
 
+  @include respond-to(xs) {
+    display: none;
+  }
+
   .prenavbar-container {
     display: flex;
     justify-content: space-between;
@@ -389,6 +393,10 @@ button:focus {
   }
 }
 
+.fixed {
+  background: #323131;
+}
+
 .nav-link {
   // color: $gray;
   // text-transform: uppercase;
@@ -409,7 +417,7 @@ button:focus {
 
 
   &.fixed-color {
-    color: $black;
+    // color: $black;
     transition: .3s ease-in-out;
 
     @include respond-to(sm) {
@@ -531,14 +539,14 @@ button:focus {
     @include respond-to(xs) {
       width: 100%;
       padding: 0;
-      background: #dcdcdcd9;
+      // background: #dcdcdcd9;
       align-items: center;
     }
 
     @include respond-to(sm) {
       width: 100%;
       padding: 0;
-      background: #dcdcdcd9;
+      // background: #dcdcdcd9;
       align-items: center;
     }
 
@@ -567,6 +575,10 @@ button:focus {
         font-family: $montserrat;
         color: $white;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      @include respond-to(xs) {
+        width: 100%;
       }
     }
 
@@ -611,18 +623,37 @@ button:focus {
 }
 
 .main-services {
+  position: relative;
+
+  .main-service__icon-small {
+    position: absolute;
+    width: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -11rem;
+  }
+
   .main-general__description {
     margin-bottom: 1.5rem;
   }
 
   .container-grid {
     grid-template-columns: 10% 90%;
+
+    @include respond-to(xs) {
+      grid-template-columns: 100%;
+
+    }
   }
 
   .main-service__icon {
     & img {
       height: 19rem;
       transform: translateY(-11rem);
+    }
+
+    @include respond-to(xs) {
+      display: none;
     }
   }
 }
@@ -719,7 +750,12 @@ button:focus {
 
   .container-grid {
     grid-template-columns: (40% 60%);
+
     // grid-gap: 5rem;
+    @include respond-to(xs) {
+      grid-template-columns: 100%;
+
+    }
   }
 
   .slider-nav {
@@ -747,12 +783,33 @@ button:focus {
     flex-direction: column;
     margin: 0 9rem 0 5rem;
     justify-content: flex-end;
+
+    @include respond-to(xs) {
+      margin: 0;
+    }
   }
 }
 
 .main-about {
+
+  .main-about__icon {
+    position: relative;
+    height: 16rem;
+
+    & img {
+      position: absolute;
+      height: 100%;
+      right: 7rem;
+      bottom: -3rem;
+    }
+  }
+
   .container-grid {
     grid-template-columns: 60% 40%;
+
+    @include respond-to(xs) {
+      grid-template-columns: 100%;
+    }
   }
 
   .main-about__description {
@@ -760,15 +817,21 @@ button:focus {
   }
 
   .padding-top-bottom {
-    padding-top: 14rem;
+    padding-top: 0;
     padding-bottom: 9rem;
   }
+
+
 }
 
 .main-clients {
   .main-clients__width {
     width: 50%;
     margin-top: 1rem;
+
+    @include respond-to(xs) {
+      width: 100%;
+    }
   }
 
   .main-clients__name {
@@ -812,6 +875,11 @@ button:focus {
   .container-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5rem;
+
+    @include respond-to(xs) {
+      grid-template-columns: 100%;
+
+    }
   }
 
   .main-blog__img {
@@ -859,6 +927,10 @@ button:focus {
 .main-events {
   .container-grid {
     grid-template-columns: repeat(2, 50%);
+
+    @include respond-to(xs) {
+      grid-template-columns: 100%;
+    }
   }
 
   .main-event__calendar {
@@ -871,6 +943,11 @@ button:focus {
       position: absolute;
       bottom: -15rem;
       z-index: -1;
+
+      @include respond-to(xs) {
+        position: initial;
+        margin-bottom: 2rem;
+      }
     }
   }
 
@@ -879,6 +956,10 @@ button:focus {
   .main-events__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    @include respond-to(xs) {
+      grid-template-columns: 100%;
+    }
   }
 
   .main-events__card {

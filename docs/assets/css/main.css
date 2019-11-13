@@ -552,6 +552,12 @@ body {
   width: 15rem;
 }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-about__carousel .slick-slide img {
+    width: 100%;
+  }
+}
+
 .main-about__carousel .slick-slide.slick-current.slick-active.slick-center img {
   width: 17rem;
   position: relative;
@@ -654,6 +660,12 @@ body :focus {
   background-color: #4b779e;
   font-size: .9rem;
   padding: .5rem;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-prenavbar {
+    display: none;
+  }
 }
 
 .main-prenavbar .prenavbar-container {
@@ -936,6 +948,10 @@ button:focus {
   }
 }
 
+.fixed {
+  background: #323131;
+}
+
 .nav-link {
   transition: .3s ease-in-out;
   font-size: 1rem;
@@ -956,7 +972,6 @@ button:focus {
 }
 
 .nav-link.fixed-color {
-  color: #000;
   transition: .3s ease-in-out;
 }
 
@@ -1088,7 +1103,6 @@ button:focus {
   .main-banner .main-banner__text {
     width: 100%;
     padding: 0;
-    background: #dcdcdcd9;
     align-items: center;
   }
 }
@@ -1097,7 +1111,6 @@ button:focus {
   .main-banner .main-banner__text {
     width: 100%;
     padding: 0;
-    background: #dcdcdcd9;
     align-items: center;
   }
 }
@@ -1127,6 +1140,12 @@ button:focus {
   font-family: "Montserrat", sans-serif;
   color: #fff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-banner .main-banner__text .main-banner__subtitle {
+    width: 100%;
+  }
 }
 
 .main-banner .main-banner__text .main-banner__description {
@@ -1171,6 +1190,18 @@ button:focus {
   width: 4rem;
 }
 
+.main-services {
+  position: relative;
+}
+
+.main-services .main-service__icon-small {
+  position: absolute;
+  width: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -11rem;
+}
+
 .main-services .main-general__description {
   margin-bottom: 1.5rem;
 }
@@ -1179,9 +1210,21 @@ button:focus {
   grid-template-columns: 10% 90%;
 }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-services .container-grid {
+    grid-template-columns: 100%;
+  }
+}
+
 .main-services .main-service__icon img {
   height: 19rem;
   transform: translateY(-11rem);
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-services .main-service__icon {
+    display: none;
+  }
 }
 
 .main-service__items {
@@ -1274,6 +1317,12 @@ button:focus {
   grid-template-columns: 40% 60%;
 }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-team .container-grid {
+    grid-template-columns: 100%;
+  }
+}
+
 .main-team .slider-nav img {
   width: 6rem;
 }
@@ -1297,8 +1346,32 @@ button:focus {
   justify-content: flex-end;
 }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-team .main-team__nav {
+    margin: 0;
+  }
+}
+
+.main-about .main-about__icon {
+  position: relative;
+  height: 16rem;
+}
+
+.main-about .main-about__icon img {
+  position: absolute;
+  height: 100%;
+  right: 7rem;
+  bottom: -3rem;
+}
+
 .main-about .container-grid {
   grid-template-columns: 60% 40%;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-about .container-grid {
+    grid-template-columns: 100%;
+  }
 }
 
 .main-about .main-about__description {
@@ -1306,13 +1379,19 @@ button:focus {
 }
 
 .main-about .padding-top-bottom {
-  padding-top: 14rem;
+  padding-top: 0;
   padding-bottom: 9rem;
 }
 
 .main-clients .main-clients__width {
   width: 50%;
   margin-top: 1rem;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-clients .main-clients__width {
+    width: 100%;
+  }
 }
 
 .main-clients .main-clients__name {
@@ -1356,6 +1435,12 @@ button:focus {
   grid-gap: 5rem;
 }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-blog .container-grid {
+    grid-template-columns: 100%;
+  }
+}
+
 .main-blog .main-blog__img {
   width: 100%;
 }
@@ -1394,6 +1479,12 @@ button:focus {
   grid-template-columns: repeat(2, 50%);
 }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-events .container-grid {
+    grid-template-columns: 100%;
+  }
+}
+
 .main-events .main-event__calendar {
   width: 80%;
   position: relative;
@@ -1406,9 +1497,22 @@ button:focus {
   z-index: -1;
 }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-events .main-event__calendar img {
+    position: initial;
+    margin-bottom: 2rem;
+  }
+}
+
 .main-events .main-events__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-events .main-events__container {
+    grid-template-columns: 100%;
+  }
 }
 
 .main-events .main-events__card {

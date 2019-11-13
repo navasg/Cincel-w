@@ -423,6 +423,10 @@
 
   .slick-slide img {
     width: 15rem;
+
+    @include respond-to(xs) {
+      width: 100%;
+    }
   }
 
   .slick-slide.slick-current.slick-active.slick-center img {

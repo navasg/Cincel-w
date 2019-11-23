@@ -51,7 +51,6 @@
 }
 
 
-
 .general-service__img img {
   width: 100%;
 }
@@ -72,6 +71,11 @@
   margin-bottom: 2rem;
 }
 
+.general-form__title--bold {
+  font-weight: 800;
+
+}
+
 .general-form__content {
   box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.06);
   background-color: #ffffff;
@@ -79,8 +83,12 @@
   border-radius: 1rem;
   width: 70%;
   position: absolute;
-  transform: translateY(-6rem);
+  transform: translateY(-9rem);
   z-index: 99;
+}
+
+.general-form__bg--img {
+  bottom: -12rem;
 }
 
 
@@ -171,61 +179,61 @@
   bottom: -18rem;
 }
 
-.starting-climate .container-grid {
+.clima-about .container-grid {
   grid-template-columns: repeat(2, 1fr);
   gap: 6rem;
 }
 
 
-.starting-climate__img img {
+.clima-about__img img {
   width: 100%;
 }
 
-.starting-climate__text {
+.clima-about__text {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.starting-variables .padding-top-bottom {
+.clima-variables .padding-top-bottom {
   padding-bottom: 14rem;
 }
 
-.starting-variables__logo {
+.clima-variables__logo {
   display: flex;
   justify-content: center;
 }
 
-.starting-variables__logo img {
+.clima-variables__logo img {
   width: 12rem;
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
 
-.starting-variables .container-grid {
+.clima-variables .container-grid {
   grid-template-columns: repeat(5, 1fr);
   gap: 3rem;
   width: 60%;
 }
 
-.starting-variables__center {
+.clima-variables__center {
   display: flex;
   justify-content: center;
 }
 
-.starting-variables__item {
+.clima-variables__item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.starting-variables__item img {
+.clima-variables__item img {
   width: 5rem;
   height: 5rem;
   object-fit: contain;
 }
 
-.starting-variables__title {
+.clima-variables__title {
   text-align: center;
   font-weight: bold;
   font-size: .9rem;
@@ -235,17 +243,17 @@
 
 @media (min-width: 0px) and (max-width: 767px) {
 
-  .starting-variables .container-grid {
+  .clima-variables .container-grid {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     gap: 1rem;
   }
 
-  .starting-variables .padding-top-bottom {
+  .clima-variables .padding-top-bottom {
     padding-bottom: 5rem;
   }
 
-  .starting-climate .container-grid {
+  .clima-about .container-grid {
     grid-template-columns: 100%;
   }
 }
@@ -253,13 +261,13 @@
 @media (min-width: 0px) and (max-width: 767px) {}
 
 @media (min-width: 768px) and (max-width: 997px) {
-  .starting-variables .container-grid {
+  .clima-variables .container-grid {
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     gap: 1rem;
   }
 
-  .starting-variables .padding-top-bottom {
+  .clima-variables .padding-top-bottom {
     padding-bottom: 5rem;
   }
 
@@ -267,9 +275,83 @@
 }
 
 @media (min-width: 998px) and (max-width: 1024px) {
-  .starting-variables .container-grid {
+  .clima-variables .container-grid {
     /* grid-template-columns: repeat(3, 1fr); */
     width: 80%;
     gap: 2rem;
   }
+}
+
+.commitment-about {
+  padding-bottom: 16rem;
+}
+
+.commitment-about .container-grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .commitment-about .container-grid {
+    grid-template-columns: 100%;
+    gap: 2rem;
+  }
+
+  .commitment-about {
+    padding-bottom: 0rem;
+  }
+
+  .general-form__bg--img {
+    display: none;
+  }
+}
+
+
+
+.commitment-about__item {
+  border-radius: 21px;
+  box-shadow: 0 2px 19px 0 rgba(208, 200, 200, 0.5);
+  border: solid 1px #d8d8d8;
+  background-color: #f8f8f8;
+  padding: 1rem;
+}
+
+.commitment-about__list {
+  list-style: none;
+  padding: 0;
+}
+
+.commitment-about__list li {
+  margin: 1rem 0;
+}
+
+.commitment-about__list li::before {
+  content: "\2022";
+  color: #f47321;
+  font-weight: bold;
+  margin-right: 3px;
+  margin-left: 0px;
+
+  display: inline-block;
+}
+
+@media (min-width: 768px) and (max-width: 997px) {
+
+  .commitment-about {
+    padding-bottom: 0;
+  }
+
+  .commitment-about .container-grid {
+    grid-template-columns: 100%;
+    gap: 3rem;
+  }
+
+  .commitment-about__item {
+    padding: 2rem;
+  }
+
+  .general-form__bg--img {
+    display: none;
+  }
+
 }

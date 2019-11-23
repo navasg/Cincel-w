@@ -916,6 +916,10 @@ button:focus {
   color: #494949;
 }
 
+.main-general__subtitle--uppercase {
+  text-transform: uppercase;
+}
+
 .main-general__description {
   font-size: 1rem;
   font-weight: 500;

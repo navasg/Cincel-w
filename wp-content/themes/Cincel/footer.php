@@ -1,5 +1,6 @@
   <footer class="main-footer">
-    <img class="main-footer__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg@3x.png">
+    <div class="main-footer__mask" >
+    <img class="main-footer__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg.png">
     <div class="container padding-top-bottom">
       <div class="container-grid">
         <div class="main-footer__rrss">
@@ -83,12 +84,15 @@
         </div>
       </div>
     </div>
-    <div class="main-powered">
-      <p>Copyright © 2019</p>
-      <a href="https://sigma.la/">Sigma Studios</a>
-      <p>- Sitios Web</p>
-    </div>
+  
+  </div>
+    
   </footer>
+  <div class="main-powered">
+    <p>Copyright © 2019</p>
+    <a href="https://sigma.la/">Sigma Studios</a>
+    <p>- Sitios Web</p>
+  </div>
   <div class="main-whatsapp">
     <a href="https://wa.me/573176383948" target="_blank">
       <img alt="icon chat" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/speech-bubble@3x.png">

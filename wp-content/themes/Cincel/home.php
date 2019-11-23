@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<?php get_template_part('partials/banner');?>
+<?php get_template_part('partials/main-banner');?>
 <?php get_template_part('partials/main-services');?>
 <?php get_template_part('partials/main-team');?> 
 <?php get_template_part('partials/main-about');?> 

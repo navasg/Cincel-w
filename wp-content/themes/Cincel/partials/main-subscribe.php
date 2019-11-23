@@ -9,14 +9,14 @@
           <p class="main-subscribe__subtitle">
             Suscríbete y entérate de nuestros últimos productos y noticias
           </p>
-          <div class="main-subscribe__grid">
-            <label>
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close-envelope@3x.png">
-              <input placeholder="Email" type="text">
+          <div class="main-subscribe__grid main-general__container-form">
+            <label class="container-form_label" >
+              <img class="container-form_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/close-envelope@3x.png">
+              <input class="container-form_input" placeholder="Email" type="text">
             </label>
-            <label>
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-user@3x.png">
-              <input placeholder="Nombre" type="text">
+            <label class="container-form_label">
+              <img class="container-form_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-user@3x.png">
+              <input class="container-form_input" placeholder="Nombre" type="text">
             </label>
           </div>
           <div class="d-flex justify-content-center mt-3">

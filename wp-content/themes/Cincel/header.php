@@ -12,13 +12,13 @@
   <link href="<?php echo get_template_directory_uri(); ?>/assets/css/slick-theme.css" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri(); ?>/assets/css/slick.css" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/general-services.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.png" rel="shortcut icon">
   <link
     href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Open+Sans:300,400,600,700,800|Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap"
     rel="stylesheet">
       <?php wp_head(); ?>
-
 </head>
 
 <body>

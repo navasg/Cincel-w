@@ -21,8 +21,6 @@
             consequat.
           </p>
           <p class="main-general__description">
-
-
             Duis esse cillum dolore eu fugiat . Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam
@@ -38,8 +36,9 @@
           </div>
         </div>
       </div>
+      <div class="d-flex justify-content-center"> 
+      <div class="main-services__width main-services__width--100"> 
       <div class="main-service__items">
-        <div class="container-grid">
           <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/bg_4@3x.png)">
             <div class="service-card__title">
               <p>
@@ -99,7 +98,8 @@
               Espacios conciencia, revistas, portafolio de conferencias (conferencias, simposios).
             </p>
           </div>
-        </div>
+          </div>
+          </div>
       </div>
     </div>
   </section>

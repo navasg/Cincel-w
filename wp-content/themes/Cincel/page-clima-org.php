@@ -32,7 +32,7 @@
       <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/logo-orange@3x.png">
     </div>
     <div class="clima-variables__center">
-      <div class="container-grid">
+      <div class="clima-variables__flex">
         <div class="clima-variables__item">
           <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_62@3x.png">
           <p class="clima-variables__title" >

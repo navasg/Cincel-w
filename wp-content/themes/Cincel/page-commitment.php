@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php get_template_part('partials/general-banner');?>
 <section class="commitment-about" >
-  <div class="container" > 
+  <div class="container padding-top-bottom" > 
     <div class="main-team__icon main-team__icon--initial">
       <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">
     </div>

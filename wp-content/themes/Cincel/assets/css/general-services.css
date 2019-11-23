@@ -216,15 +216,24 @@
   width: 60%;
 }
 
-.clima-variables__center {
+/* .clima-variables__center {
   display: flex;
   justify-content: center;
+  padding: 0 12rem;
+} */
+
+.clima-variables__flex {
+  display: flex;
+  justify-content: center;
+  padding: 0 12rem;
+  flex-wrap: wrap;
 }
 
 .clima-variables__item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 20%;
 }
 
 .clima-variables__item img {
@@ -243,10 +252,12 @@
 
 @media (min-width: 0px) and (max-width: 767px) {
 
-  .clima-variables .container-grid {
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    gap: 1rem;
+  .clima-variables__item {
+    width: 50%;
+  }
+
+  .clima-variables__flex {
+    padding: 0;
   }
 
   .clima-variables .padding-top-bottom {
@@ -261,17 +272,9 @@
 @media (min-width: 0px) and (max-width: 767px) {}
 
 @media (min-width: 768px) and (max-width: 997px) {
-  .clima-variables .container-grid {
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
-    gap: 1rem;
+  .clima-variables__flex {
+    padding: 0;
   }
-
-  .clima-variables .padding-top-bottom {
-    padding-bottom: 5rem;
-  }
-
-
 }
 
 @media (min-width: 998px) and (max-width: 1024px) {
@@ -352,6 +355,68 @@
 
   .general-form__bg--img {
     display: none;
+  }
+
+}
+
+.happiness-about {
+  padding-bottom: 14rem;
+}
+
+.happiness-about .container-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.happiness-about__gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.happiness-about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.happiness-about__text .main-team__icon {
+  margin-top: 5rem;
+}
+
+.happiness-about__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.happiness-about__img:nth-child(2) img,
+.happiness-about__img:nth-child(3) img {
+  width: 90%;
+  height: 90%;
+}
+
+.happiness-about__img:nth-child(2) {
+  display: flex;
+  align-items: flex-end;
+}
+
+.happiness-about__img:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .happiness-about {
+    padding-bottom: 0;
+  }
+
+  .happiness-about__text .main-team__icon {
+    margin-top: 0;
+  }
+
+  .happiness-about .container-grid {
+    grid-template-columns: 100%;
+    gap: 2rem;
   }
 
 }

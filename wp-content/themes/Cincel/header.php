@@ -31,7 +31,9 @@
           </p>
           <ul class="main-prenavbar__rrss d-flex align-items-center">
             <li>
-              <a class="main-prenavbar__button" href="">PRÓXIMOS EVENTOS</a>
+              <a class="main-prenavbar__button" href="">PRÓXIMOS EVENTOS
+              </a>
+              
             </li>
             <li>
               <a href="" target="_blank">
@@ -79,13 +81,156 @@
           </button>
         </div>
         <div class="navbar-collapse offcanvas-collapse">
-          <ul class="navbar-nav mr-autos">
-            <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#"
+          <ul class="navbar-nav mr-autos navbar-1">
+            <li class=" nav-item level-1">
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href=""
                 role="button">
                 Soluciones
               </a>
+              <ul class="navbar-2">
+                <li class="level-2">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                    Punto de Partida
+                  </a>
+                  <ul class="navbar-3">
+                  <li class="level-3">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Clima Organizacional
+                      </a>           
+                    </li>    
+                  
+                  <li class="level-3">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Compromiso Laboral
+                      </a>           
+                    </li>  
+                    <li>
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Felicidad Laboral
+                      </a>           
+                    </li>  
+                    <li>
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Factores de Riesgo
+                      </a>           
+                    </li>    
+                    <li>
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Cuestionario de Motivación
+                      </a>           
+                    </li>                  
+                  </ul>
+                </li>
+                <li class="level-2">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                    Camino al Cambio
+                  </a>
+                  <ul class="navbar-3">
+                  <li class="level-3">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Lider Phd
+                      </a>           
+                    </li>    
+                  
+                  <li class="level-3">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Ruta 5e
+                      </a>           
+                    </li>  
+                    <li>
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Formación con sentido
+                      </a>           
+                    </li>              
+                  </ul>
+                </li>
+                <li class="level-2">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                    A la medida
+                  </a>
+                  <ul class="navbar-3">
+                  <li class="level-3">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Diseño
+                      </a>           
+                      <ul class="navbar-4">
+                  <li class="level-4">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Modelo de Gestión de desempeño
+                      </a>           
+                    </li>    
+                  <li class="level-4">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Cultura
+                      </a>           
+                    </li> 
+                    <li class="level-4">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Gestión por competencia
+                      </a>           
+                    </li>  
+                    <li class="level-4">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Pruebas a medida para las organizaciones
+                      </a>           
+                    </li>    
+                    <li class="level-4">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Verificación y ajuste de las pruebas
+                      </a>           
+                    </li>          
+                  </ul>
+
+                    </li>    
+                  <li class="level-3">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Investigación
+                      </a>           
+                    </li>          
+                  </ul>
+                </li>
+                <li class="level-2">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                    Espacios con ciencia
+                  </a>
+                  <ul class="navbar-3">
+                  <li class="level-3">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Lo decimos
+                        </a>           
+
+                        <ul class="navbar-4">
+                  <li class="level-4">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Lo decimos talleres
+                      </a>           
+                    </li>    
+                  
+                    <li class="level-4">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Lo decimos conferencias
+                      </a>           
+                    </li>          
+                  </ul>
+                    </li>    
+                  
+                  <li class="level-3">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Lo escribimos
+                      </a>           
+                      <ul class="navbar-4">
+                  <li class="level-4">
+                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                        Lo escribimos libros
+                      </a>           
+                    </li>        
+                  </ul>
+                    </li>          
+                  </ul>
+                </li>
+              </ul>
             </li>
+            
             <li class="dropdown nav-item">
               <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#"
                 role="button">

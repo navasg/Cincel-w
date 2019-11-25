@@ -179,17 +179,17 @@
   bottom: -18rem;
 }
 
-.clima-about .container-grid {
+.general-about .container-grid {
   grid-template-columns: repeat(2, 1fr);
   gap: 6rem;
 }
 
 
-.clima-about__img img {
+.general-about__img img {
   width: 100%;
 }
 
-.clima-about__text {
+.general-about__text {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -264,8 +264,12 @@
     padding-bottom: 5rem;
   }
 
-  .clima-about .container-grid {
+  .general-about .container-grid {
     grid-template-columns: 100%;
+  }
+
+  .general-about {
+    padding-bottom: 0;
   }
 }
 
@@ -274,6 +278,10 @@
 @media (min-width: 768px) and (max-width: 997px) {
   .clima-variables__flex {
     padding: 0;
+  }
+
+  .general-about {
+    padding-bottom: 0;
   }
 }
 
@@ -359,10 +367,6 @@
 
 }
 
-.happiness-about {
-  padding-bottom: 14rem;
-}
-
 .happiness-about .container-grid {
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
@@ -419,4 +423,75 @@
     gap: 2rem;
   }
 
+}
+
+.questionnaire-about {
+  padding-bottom: 14rem;
+}
+
+.questionnaire-about .container-grid {
+  grid-template-columns: 60% 40%;
+  gap: 3rem;
+}
+
+.questionnaire-about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.questionnaire-about__img img {
+  width: 25rem;
+}
+
+.questionnaire-about__logo img {
+  width: 12rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+
+  .questionnaire-about .container-grid {
+    grid-template-columns: 100%;
+    gap: 2rem;
+  }
+
+  .questionnaire-about {
+    padding-bottom: 0;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 997px) {
+
+  .questionnaire-about__img img {
+    width: 100%;
+  }
+
+  .questionnaire-about {
+    padding-bottom: 0;
+  }
+}
+
+.road-about {
+  padding-bottom: 12rem;
+}
+
+.road-about .main-service__card {
+  height: 22rem;
+}
+
+.road-about .main-service__items {
+  margin-top: 0;
+}
+
+.road-about .main-service__card .main-general__description {
+  margin-bottom: 0;
+}
+
+
+@media (min-width: 0px) and (max-width: 997px) {
+  .road-about {
+    padding-bottom: 0;
+  }
 }

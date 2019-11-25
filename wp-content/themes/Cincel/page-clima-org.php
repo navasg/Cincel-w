@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 <?php get_template_part('partials/general-banner');?>
-<section class="clima-about" >
+<section class="general-about" >
   <div class="container padding-top-bottom" > 
     <div class="container-grid" >
-      <div class="clima-about__img" >
+      <div class="general-about__img" >
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/imagen@3x.png">
       </div>
-      <div class="clima-about__text" >
+      <div class="general-about__text" >
         <div class="main-team__icon main-team__icon--initial">
           <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">
         </div>
@@ -23,6 +23,7 @@
     </div>
    </div> 
 </section>
+
 <section class="clima-variables">
   <div class="container padding-top-bottom">
     <p class="main-general__title main-general__title--center main-general__title--no-transform  ">

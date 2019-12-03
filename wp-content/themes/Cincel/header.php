@@ -83,99 +83,99 @@
         <div class="navbar-collapse offcanvas-collapse">
           <ul class="navbar-nav mr-autos navbar-1">
             <li class=" nav-item level-1">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href=""
+              <a aria-expanded="false" class="nav-link"  href=""
                 role="button">
                 Soluciones
               </a>
               <ul class="navbar-2">
                 <li class="level-2">
-                  <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/punto-de-partida" role="button">
                     Punto de Partida
                   </a>
                   <ul class="navbar-3">
                   <li class="level-3">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/punto-de-partida-clima-org" role="button">
                         Clima Organizacional
                       </a>           
-                    </li>    
+                  </li>    
                   
                   <li class="level-3">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/punto-de-partida-compromiso-laboral" role="button">
                         Compromiso Laboral
                       </a>           
                     </li>  
                     <li>
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/punto-de-partida-felicidad-laboral" role="button">
                         Felicidad Laboral
                       </a>           
                     </li>  
                     <li>
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>//punto-de-partida-factores-psico" role="button">
                         Factores de Riesgo
                       </a>           
                     </li>    
                     <li>
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/punto-de-partida-factores-cuestionario-trabajo" role="button">
                         Cuestionario de Motivación
                       </a>           
                     </li>                  
                   </ul>
                 </li>
                 <li class="level-2">
-                  <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/camino-al-cambio" role="button">
                     Camino al Cambio
                   </a>
                   <ul class="navbar-3">
                   <li class="level-3">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
                         Lider Phd
                       </a>           
                     </li>    
                   
                   <li class="level-3">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
                         Ruta 5e
                       </a>           
                     </li>  
                     <li>
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
                         Formación con sentido
                       </a>           
                     </li>              
                   </ul>
                 </li>
                 <li class="level-2">
-                  <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/a-la-medida" role="button">
                     A la medida
                   </a>
                   <ul class="navbar-3">
                   <li class="level-3">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
                         Diseño
                       </a>           
                       <ul class="navbar-4">
                   <li class="level-4">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/a-la-medida-diseno-modelo-cultura-gestion" role="button">
                         Modelo de Gestión de desempeño
                       </a>           
                     </li>    
                   <li class="level-4">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
                         Cultura
                       </a>           
                     </li> 
                     <li class="level-4">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
                         Gestión por competencia
                       </a>           
                     </li>  
                     <li class="level-4">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/a-la-medida-diseno-pruebas-a-medida" role="button">
                         Pruebas a medida para las organizaciones
                       </a>           
                     </li>    
                     <li class="level-4">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
                         Verificación y ajuste de las pruebas
                       </a>           
                     </li>          
@@ -183,31 +183,31 @@
 
                     </li>    
                   <li class="level-3">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/a-la-medida-investigacion" role="button">
                         Investigación
                       </a>           
                     </li>          
                   </ul>
                 </li>
                 <li class="level-2">
-                  <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/espacios-con-ciencia" role="button">
                     Espacios con ciencia
                   </a>
                   <ul class="navbar-3">
                   <li class="level-3">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/espacios-con-ciencia-lo-decimos" role="button">
                         Lo decimos
                         </a>           
 
                         <ul class="navbar-4">
                   <li class="level-4">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
                         Lo decimos talleres
                       </a>           
                     </li>    
                   
                     <li class="level-4">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
                         Lo decimos conferencias
                       </a>           
                     </li>          
@@ -215,12 +215,12 @@
                     </li>    
                   
                   <li class="level-3">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/espacios-con-ciencia-lo-escribimos" role="button">
                         Lo escribimos
                       </a>           
                       <ul class="navbar-4">
                   <li class="level-4">
-                      <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
                         Lo escribimos libros
                       </a>           
                     </li>        
@@ -231,8 +231,8 @@
               </ul>
             </li>
             
-            <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#"
+            <li class=" nav-item">
+              <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/"
                 role="button">
                 Nuestro Valor
               </a>
@@ -244,8 +244,8 @@
                 Nosotros
               </a>
             </li>
-            <li class="dropdown nav-item">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#"
+            <li class="nav-item">
+              <a aria-expanded="false" class="nav-link"  href="#"
                 role="button">
                 Blog
               </a>

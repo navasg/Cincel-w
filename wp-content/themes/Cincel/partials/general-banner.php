@@ -5,14 +5,14 @@
           <div class="container">
             <div class="main-banner__title main-banner__title--center">
               <p>
-                Punto de partida
+                <?php the_title() ?>
               </p>
             </div>
-            <div class="main-banner__title main-banner__title--center">
+            <!-- <div class="main-banner__title main-banner__title--center">
               <p>
                 Diagnóstico              
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="main-banner__img">

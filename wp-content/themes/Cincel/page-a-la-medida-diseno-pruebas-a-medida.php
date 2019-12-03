@@ -28,8 +28,9 @@
 </section>
 
 <section class="general-form ">
-  <img class="general-form__bg general-form__bg--top" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg-copy-top.png">
-  <img class="general-form__bg general-form__bg--bottom" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg-copy-bottom.png">
+  
+  <img class="general-form__bg general-form__bg--img" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg-22@3x.png">
+
   <?php get_template_part('partials/general-form');?>
 </section>
 <?php get_footer(); ?>

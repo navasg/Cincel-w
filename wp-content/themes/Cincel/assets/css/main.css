@@ -697,7 +697,7 @@ body :focus {
   height: auto !important;
   border-radius: 2px;
   display: flex;
-  width: 9rem;
+  width: 11rem;
   transition: .3s;
   justify-content: center;
 }
@@ -938,6 +938,12 @@ button:focus {
 .main-general__description--white {
   color: #fff;
 }
+
+.main-general__description--light {
+  color: #979797;
+}
+
+
 
 .main-general__description--semibold {
   font-weight: 600;
@@ -1391,7 +1397,7 @@ button:focus {
   }
 }
 
-.main-services .main-service__icon img {
+.main-service__icon img {
   height: 19rem;
   transform: translateY(-11rem);
   position: absolute;
@@ -1478,6 +1484,14 @@ button:focus {
   position: relative;
 }
 
+.service-card__title--center {
+  text-align: center;
+}
+
+.service-card__title--lower {
+  text-transform: initial !important;
+}
+
 .main-service__items .service-card__title span {
   font-weight: 600;
 }
@@ -1498,6 +1512,7 @@ button:focus {
   padding: 0 1rem;
   text-align: center;
   color: #fff;
+  margin-bottom: 0;
 }
 
 .main-service__items .service-card__mask {

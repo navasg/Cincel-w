@@ -52,6 +52,8 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-menu@3x.png">
             </div>
             <li>
+
+            
               <a href="">Cra 25A No. 1-31 Of. 1102 Medellín</a>
             </li>
             <li>

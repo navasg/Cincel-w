@@ -17,7 +17,7 @@
       La motivación es un excelente predictor del desempeño en el trabajo. A través de esta plataforma pueden identificarse 15  factores motivacionales. 
     </p>
     <p class="main-general__description">
-        Incluye: 
+        <b>Incluye:</b> <br>
         Módulo de Administración de Procesos (Plataforma Revisión de Perfiles Individuales y Comparaciones)
         Módulo de Configuración de Perfiles, Información del Estado de Cuenta.      
     </p>

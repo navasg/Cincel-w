@@ -45,24 +45,21 @@
     <div class="clima-variables__center">
       <div class="clima-variables__flex">
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_62@3x.png">
+          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/business.png">
           <p class="clima-variables__title" >
-          Apoyo 
-Organizacional
+        Gratificación
           </p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_72@3x.png">
+          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/dance.png">
           <p class="clima-variables__title" >
-          Apoyo 
-del jefe
+          Disfrute
           </p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_8@3x.png">
+          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/puzzle.png">
           <p class="clima-variables__title" >
-          Disponibilidad
-de recursos
+          Sentido
           </p>
         </div>
 

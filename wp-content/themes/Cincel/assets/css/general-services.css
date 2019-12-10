@@ -245,7 +245,7 @@
 .clima-variables__title {
   text-align: center;
   font-weight: bold;
-  font-size: .9rem;
+  font-size: 1rem;
   font-family: "Open Sans", sans-serif;
   margin: 1rem 0;
 }
@@ -500,7 +500,7 @@
 }
 
 .investigation {
-
+  height: 64rem;
   position: relative;
 }
 

@@ -29,72 +29,87 @@
     </div>
     <div class="d-flex justify-content-center">
       <div class="main-services__width">
-
         <div class="main-service__items general-services__items">
           <div class="main-service__card"
-            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/bg_4@3x.png)">
+            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/im1.png)">
             <div class="service-card__title">
               <p>
                 <span>
-                  Punto
-                </span> de partida
+                  Clima
+                </span> organizacional
               </p>
               <p class="service-card__rectangle">
-                Diagnostico
+                Eco V
               </p>
             </div>
             <p class="service-card__description">
-              Hay varios temas para redireccionar a otra aplicación.
+              Lorem Ipsum es simplemente el texto de relleno de las 
             </p>
             <div class="service-card__mask"></div>
           </div>
           <div class="main-service__card"
-            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/image_4@3x.png)">
+            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/im2.png)">
             <div class="service-card__title">
               <p>
                 <span>
-                  Camino
-                </span> al cambio
+                  Compromiso
+                </span> <br> laboral
               </p>
               <p class="service-card__rectangle">
-                Intervención
+                Nexos
               </p>
             </div>
             <p class="service-card__description">
-              intervención, desarrollo de liderazgo, interacción con grupos y personas
+              Lorem Ipsum es simplemente el texto de relleno de las 
             </p>
             <div class="service-card__mask"></div>
           </div>
           <div class="main-service__card"
-            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/image_5@3x.png)">
+            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/im3.png)">
             <div class="service-card__title">
               <p>
-                <span>A la medida</span>
+                <span>Felicidad</span> <br>
+                laboral
               </p>
               <p class="service-card__rectangle">
-                Investigación & diseño
+                F - Siete
               </p>
             </div>
             <p class="service-card__description">
-              Investigación y diseño, cosas más especializadas, servicio exclusivo.
+              Lorem Ipsum es simplemente el texto de relleno de las  
             </p>
             <div class="service-card__mask"></div>
           </div>
           <div class="main-service__card"
-            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/image_6@3x.png)">
+            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/im4.png)">
             <div class="service-card__title">
               <p>
-                <span>Espacios</span> con-ciencia
+                <span>Factores de riesgo</span> psicosocial
               </p>
               <p class="service-card__rectangle">
-                Divulgación del conocimineto
+                Enfasis
               </p>
             </div>
             <p class="service-card__description">
-              Espacios conciencia, revistas, portafolio de conferencias (conferencias, simposios).
+              Lorem Ipsum es simplemente el texto de relleno de las  
+            </p>
+          </div>
+          <div class="main-service__card"
+            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/im5.png)">
+            <div class="service-card__title">
+              <p>
+                <span>Cuestionario de</span> motivación
+              </p>
+              <p class="service-card__rectangle">
+                CMT
+              </p>
+            </div>
+            <p class="service-card__description">
+              Lorem Ipsum es simplemente el texto de relleno de las  
             </p>
           </div>
         </div>
+        
       </div>
     </div>
   </div>

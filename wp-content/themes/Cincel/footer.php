@@ -31,19 +31,19 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-light-03@3x.png">
             </div>
             <li>
-              <a class="main-general__description" href="">Punto de Partida</a>
+              <a class="main-general__description" href="<?php echo get_bloginfo('url'); ?>/punto-de-partida">Punto de Partida</a>
             </li>
             <li>
-              <a class="main-general__description" href="">Camino al cambio</a>
+              <a class="main-general__description" href="<?php echo get_bloginfo('url'); ?>/camino-al-cambio">Camino al cambio</a>
             </li>
             <li>
-              <a class="main-general__description" href="">A la medida</a>
+              <a class="main-general__description" href="<?php echo get_bloginfo('url'); ?>/a-la-medida">A la medida</a>
             </li>
             <li>
-              <a class="main-general__description" href="">Espacios con-ciencias</a>
+              <a class="main-general__description" href="<?php echo get_bloginfo('url'); ?>/espacios-con-ciencia">Espacios con-ciencias</a>
             </li>
             <li>
-              <a class="main-general__description" href="">Política de protección de datos personales</a>
+              <a class="main-general__description" href="<?php echo get_bloginfo('url'); ?>/terminos-y-condiciones">Política de protección de datos personales</a>
             </li>
           </ul>
           <ul class="main-sitemap__contact">

@@ -8,7 +8,7 @@
       </div>
       <div class="general-about__text" >
         <div class="main-team__icon main-team__icon--initial">
-          <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">
+          <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">
         </div>
         <p class="main-general__title">
           Eco v
@@ -30,61 +30,61 @@
     Variables que se analizan en el estudio
     </p>
     <div class="clima-variables__logo" >
-      <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/logo-orange@3x.png">
+      <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/logo-orange@3x.png">
     </div>
     <div class="clima-variables__center">
       <div class="clima-variables__flex">
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_62@3x.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_62@3x.png">
           <p class="clima-variables__title" >
           Apoyo 
 Organizacional
           </p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_72@3x.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_72@3x.png">
           <p class="clima-variables__title" >
           Apoyo 
 del jefe
           </p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_8@3x.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_8@3x.png">
           <p class="clima-variables__title" >
           Disponibilidad
 de recursos
           </p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_9@3x.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_9@3x.png">
           <p class="clima-variables__title" >
           Claridad organizacional
           </p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_10@3x.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_10@3x.png">
           <p class="clima-variables__title" >
           Trato interpesonal
           </p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_52@3x.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_52@3x.png">
           <p class="clima-variables__title" >Trabajo enequipo</p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/iconn@3x.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/iconn@3x.png">
           <p class="clima-variables__title" >Sentido de pertenencia</p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_22@3x.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_22@3x.png">
           <p class="clima-variables__title" >Estabilidad</p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_32@3x.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_32@3x.png">
           <p class="clima-variables__title" >Retribución</p>
         </div>
         <div class="clima-variables__item">
-        <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_42@3x.png">
+        <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon_42@3x.png">
         <p class="clima-variables__title" >Coherencia</p>  
       </div>
       </div>

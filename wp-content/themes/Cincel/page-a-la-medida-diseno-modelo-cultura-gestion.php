@@ -11,7 +11,7 @@
       </div>
       <div class="general-about__text justify-content-center" >
         <div class="main-team__icon main-team__icon--initial">
-          <img alt="Icon Team" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
+          <img alt="Icon Team" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
         </div>
         <p class="main-general__subtitle main-general__subtitle--gray">
         Módelos de gestión de desempeño
@@ -38,7 +38,7 @@
     <div class="container-grid" >
       <div class="general-about__text justify-content-center" >
         <div class="main-team__icon ">
-          <img alt="Icon Team" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
+          <img alt="Icon Team" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
         </div>
         <p class="main-general__subtitle main-general__subtitle--center main-general__subtitle--gray">
           Cultura
@@ -67,7 +67,7 @@
       </div>
       <div class="general-about__text justify-content-center" >
         <div class="main-team__icon main-team__icon--initial">
-          <img alt="Icon Team" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
+          <img alt="Icon Team" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
         </div>
         <p class="main-general__subtitle main-general__subtitle--gray">
         Gestión por competencias

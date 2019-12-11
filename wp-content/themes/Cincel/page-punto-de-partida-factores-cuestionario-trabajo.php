@@ -5,7 +5,7 @@
   <div class="container-grid" >
     <div class="questionnaire-about__text" >
       <div class="main-team__icon main-team__icon--initial">
-        <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">
+        <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">
       </div>
       <p class="main-general__title main-general__title--orange">
         ctm
@@ -22,7 +22,7 @@
         Módulo de Configuración de Perfiles, Información del Estado de Cuenta.      
     </p>
     <div class="questionnaire-about__logo" >
-    <img alt="logo questionnaire" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/logo-cmt@3x.png">
+    <img alt="logo questionnaire" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/logo-cmt@3x.png">
     </div>
     <div class="mt-btn">
             <a class="main-general__button" href="">Ver más</a>
@@ -31,7 +31,7 @@
 
     </div>
     <div class="questionnaire-about__img" >
-    <img alt="Image questionnaire" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/mockup-app@3x.png">
+    <img alt="Image questionnaire" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/mockup-app@3x.png">
     </div>
 
     </div>

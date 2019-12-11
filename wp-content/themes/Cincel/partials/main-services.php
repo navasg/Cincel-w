@@ -9,27 +9,16 @@
         </div>
         <div class="item-grid">
           <p class="main-general__title">
-            Nuestros
+            Nuestras
           </p>
           <h2 class="main-general__subtitle">
-            Servicios
+            Soluciones
           </h2>
           <p class="main-general__description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elitos, sed do eiusmod tempor incididunt ut labore et
-            dolore los magni nostrud exercitation ullamco laboris nisi utaliquip. x commodo nulla pariatur aute irure
-            dolor in reprehenderit in voluptate velit
-            consequat.
+            Construyendo organizaciones que hacen la diferencia.
           </p>
           <p class="main-general__description">
-            Duis esse cillum dolore eu fugiat . Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam
-            rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-            explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-            magni dolores eos qui ratione
-            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-            voluptatem.
+          A partir de la investigación científica y la aplicación de metodologías confiables, desarrollamos <b>modelos gestión integrales</b> que permiten a las organizaciones generar condiciones laborales que favorecen la calidad de vida de las personas y mejorar la productividad. Nuestras soluciones tienen como punto de partida el Diagnóstico y orientamos a las organizaciones hacia el cambio, transformando realidades organizacionales a través de nuestros servicios de Intervención
           </p>
           <div class="mt-btn">
             <a class="main-general__button" href="">Lorem Ipsum</a>
@@ -39,23 +28,25 @@
       <div class="d-flex justify-content-center"> 
       <div class="main-services__width main-services__width--100"> 
       <div class="main-service__items">
-          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/bg_4@3x.png)">
-            <div class="service-card__title">
-              <p>
-                <span>
-                  Punto
-                </span> de partida
-              </p>
-              <p class="service-card__rectangle">
-                Diagnostico
+          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/puntodepartida.png)">
+            <div class="service-card__mask">
+              <div class="service-card__title">
+                <p>
+                  <span>
+                    Punto
+                  </span> de partida
+                </p>
+                <p class="service-card__rectangle">
+                  Diagnostico
+                </p>
+              </div>
+              <p class="service-card__description">
+                Las decisiones acertadas sólo se toman con datos confiables
               </p>
             </div>
-            <p class="service-card__description">
-              Hay varios temas para redireccionar a otra aplicación.
-            </p>
-            <div class="service-card__mask"></div>
           </div>
-          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/image_4@3x.png)">
+          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/caminoalcambio.png)">
+            <div class="service-card__mask">
             <div class="service-card__title">
               <p>
                 <span>
@@ -67,11 +58,12 @@
               </p>
             </div>
             <p class="service-card__description">
-              intervención, desarrollo de liderazgo, interacción con grupos y personas
+              Comprender lo que hace única a una organización, es el comienzo para generar trasformaciones positivas
             </p>
-            <div class="service-card__mask"></div>
+            </div>
           </div>
-          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/image_5@3x.png)">
+          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/puntodepartida.png)">
+            <div class="service-card__mask">
             <div class="service-card__title">
               <p>
                 <span>A la medida</span>
@@ -81,11 +73,13 @@
               </p>
             </div>
             <p class="service-card__description">
-              Investigación y diseño, cosas más especializadas, servicio exclusivo.
+              El conocimiento científico  es un motor de transformación y debe estar al alcance de todos
             </p>
-            <div class="service-card__mask"></div>
+            </div>
           </div>
-          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/image_6@3x.png)">
+          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/espaciosconciencia.png)">
+          <div class="service-card__mask">
+
             <div class="service-card__title">
               <p>
                 <span>Espacios</span> con-ciencia

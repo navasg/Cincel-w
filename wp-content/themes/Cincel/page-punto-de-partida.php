@@ -119,11 +119,11 @@
   <div class="container padding-top-bottom">
     <div class="container-grid">
       <div class="general-service__img" >
-      <img class="" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/pc.png" alt="imagen platform">
+      <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/pc.png" alt="imagen platform">
       </div>
       <div class="general-service__text">
         <div class="main-team__icon main-team__icon--initial">
-          <img alt="Icon Team" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
+          <img alt="Icon Team" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
         </div>
         <p class="main-general__title ">
           Conoce

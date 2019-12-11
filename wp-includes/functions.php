@@ -6219,7 +6219,7 @@ function wp_auth_check_html() {
 			$login_url
 		);
 		?>
-		<div id="wp-auth-check-form" class="loading" data-src="<?php echo esc_url( $login_src ); ?>"></div>
+		<div id="wp-auth-check-form" class="loading" src="<?php echo esc_url( $login_src ); ?>"></div>
 		<?php
 	}
 

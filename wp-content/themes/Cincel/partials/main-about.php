@@ -6,22 +6,22 @@
       <div class="container-grid">
         <div class="main-about__carousel">
           <div class="main-about__img">
-            <img alt="Imagen about" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/images-1@3x.png">
+            <img alt="Imagen about" src="<?php echo get_template_directory_uri(); ?>/assets/img/images-1@3x.png">
           </div>
           <div class="main-about__img">
-            <img alt="Imagen about" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/images-2@3x.png">
+            <img alt="Imagen about" src="<?php echo get_template_directory_uri(); ?>/assets/img/images-2@3x.png">
           </div>
           <div class="main-about__img">
-            <img alt="Imagen about" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/images-3@3x.png">
+            <img alt="Imagen about" src="<?php echo get_template_directory_uri(); ?>/assets/img/images-3@3x.png">
           </div>
           <div class="main-about__img">
-            <img alt="Imagen about" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/images-1@3x.png">
+            <img alt="Imagen about" src="<?php echo get_template_directory_uri(); ?>/assets/img/images-1@3x.png">
           </div>
           <div class="main-about__img">
-            <img alt="Imagen about" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/images-2@3x.png">
+            <img alt="Imagen about" src="<?php echo get_template_directory_uri(); ?>/assets/img/images-2@3x.png">
           </div>
           <div class="main-about__img">
-            <img alt="Imagen about" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/images-3@3x.png">
+            <img alt="Imagen about" src="<?php echo get_template_directory_uri(); ?>/assets/img/images-3@3x.png">
           </div>
         </div>
         <div class="main-about__description">
@@ -32,10 +32,7 @@
             Quiénes Somos
           </p>
           <p class="main-general__description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua los minim veniam o laboris nis aliquip exartal commodo consequat duis aute irure dolor
-            in reprehenderit in voluptate deserunt mollit
-            anim id est laborum velit esse cillum dolore eu fugiat nulla frese pariatur ut perspiciatis omnis natus.
+          Una organización que ayuda a que, personas y organizaciones, alcancen sus objetivos estratégicos, a través de la gestión científica de los asuntos humanos.
 
           </p>
         </div>

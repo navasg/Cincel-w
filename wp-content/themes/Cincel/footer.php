@@ -8,17 +8,17 @@
           <p class="main-general__description">Redes Sociales</p>
           <ul class="main-footer__icon">
             <li>
-              <a href="">
+              <a target="_blank" href="https://www.facebook.com/CentroDeInvestigacionComportamientoOrganizacional/">
                 <img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-facebook-06@3x.png">
               </a>
             </li>
             <li>
-              <a href="">
+              <a target="_blank" href="https://www.linkedin.com/company/cincel?originalSubdomain=co">
                 <img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-linkedin@3x.png">
               </a>
             </li>
             <li>
-              <a href="">
+              <a target="_blank" href="https://www.youtube.com/channel/UCVbWuyqoURhzTxAZUbcCWFw?view_as=subscriber">
                 <img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-youtube@3x.png">
               </a>
             </li>
@@ -52,18 +52,16 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-menu@3x.png">
             </div>
             <li>
-
-            
-              <a href="">Cra 25A No. 1-31 Of. 1102 Medellín</a>
+              <a href="">Carrera 25A #1-31, Edificio Parque Empresarial, Oficina 1102, Medellín, Colombia</a>
             </li>
             <li>
-              <a href="">Medellín, (574) 444 15 46 - (57) 300 640 17 00</a>
+              <a href="tel:+574 444 1546">(+574) 444 1546</a>
             </li>
             <li>
-              <a href="">Bogotá, (571) 482 32 35</a>
+              <a href="tel:+57 3006 401700">(+57) 3006401700</a>
             </li>
             <li>
-              <a href="">info@cincel.com</a>
+              <a href="mailto:clientecincel@cincel.com.co">clientecincel@cincel.com.co</a>
             </li>
           </ul>
         </div>
@@ -97,7 +95,7 @@
   </div>
   <div class="main-whatsapp">
     <a href="https://wa.me/573176383948" target="_blank">
-      <img alt="icon chat" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/speech-bubble@3x.png">
+      <img alt="icon chat" src="<?php echo get_template_directory_uri(); ?>/assets/img/speech-bubble@3x.png">
     </a>
   </div>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>

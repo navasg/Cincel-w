@@ -9,7 +9,7 @@
       </div>
       <div class="general-about__text justify-content-center" >
         <div class="main-team__icon main-team__icon--initial">
-          <img alt="Icon Team" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
+          <img alt="Icon Team" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
         </div>
         <p class="main-general__subtitle">
         INVESTIGACIÓN
@@ -27,7 +27,7 @@
     <div class="container-grid" >
       <div class="investigation-card">
         <div class="investigation-card__icon">
-          <img alt="icono investigación" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/leadership@3x.png">
+          <img alt="icono investigación" src="<?php echo get_template_directory_uri(); ?>/assets/img/leadership@3x.png">
         </div>
         <p class="main-general__description main-general__title--center main-general__description--semibold">
           Obtenemos resultados
@@ -38,7 +38,7 @@
       </div>
       <div class="investigation-card">
         <div class="investigation-card__icon">
-          <img alt="icono investigación" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/meeting@3x.png">
+          <img alt="icono investigación" src="<?php echo get_template_directory_uri(); ?>/assets/img/meeting@3x.png">
         </div>
         <p class="main-general__description main-general__title--center main-general__description--semibold">
           Obtenemos resultados
@@ -49,7 +49,7 @@
         </div>
       <div class="investigation-card">
         <div class="investigation-card__icon">
-          <img alt="icono investigación" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/idea-1@3x.png">
+          <img alt="icono investigación" src="<?php echo get_template_directory_uri(); ?>/assets/img/idea-1@3x.png">
         </div>
         <p class="main-general__description main-general__title--center main-general__description--semibold">
           Obtenemos resultados
@@ -60,7 +60,7 @@
       </div>
       <div class="investigation-card">
         <div class="investigation-card__icon">
-          <img alt="icono investigación" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/idea@3x.png">
+          <img alt="icono investigación" src="<?php echo get_template_directory_uri(); ?>/assets/img/idea@3x.png">
         </div>
         <p class="main-general__description main-general__title--center main-general__description--semibold">
           Obtenemos resultados

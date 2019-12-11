@@ -8,7 +8,7 @@
       </div>
       <div class="general-about__text" >
         <div class="main-team__icon main-team__icon--initial">
-          <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">
+          <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">
         </div>
         <p class="main-general__subtitle main-general__subtitle--gray">
         PRUEBAS A MEDIDA PARA LAS ORGANIZACIONES

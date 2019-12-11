@@ -36,17 +36,17 @@
               
             </li>
             <li>
-              <a href="" target="_blank">
+              <a href="https://www.facebook.com/CentroDeInvestigacionComportamientoOrganizacional/" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook@3x.png">
               </a>
             </li>
             <li>
-              <a href="" target="_blank">
+              <a href="https://www.linkedin.com/company/cincel?originalSubdomain=co" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/linkedin@3x.png">
               </a>
             </li>
             <li>
-              <a href="" target="_blank">
+              <a href="https://www.youtube.com/channel/UCVbWuyqoURhzTxAZUbcCWFw?view_as=subscriber" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/youtube@3x.png">
               </a>
             </li>

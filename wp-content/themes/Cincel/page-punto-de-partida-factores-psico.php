@@ -9,7 +9,7 @@
       </div>
       <div class="general-about__text justify-content-center" >
         <div class="main-team__icon main-team__icon--initial">
-          <img alt="Icon Team" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
+          <img alt="Icon Team" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-idea@3x.png">
         </div>
         <p class="main-general__title main-general__title--orange">
         Enfasis
@@ -34,7 +34,7 @@
         De efectos
         </p>
     <div class="hierarchy-of-effects__img" >
-      <img class="" alt="Icon Team" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/1.png">
+      <img class="" alt="Icon Team" src="<?php echo get_template_directory_uri(); ?>/assets/img/1.png">
     </div>
 </div>
 </section>

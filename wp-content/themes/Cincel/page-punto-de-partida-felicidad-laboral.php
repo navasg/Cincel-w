@@ -5,21 +5,21 @@
     <div class="container-grid" >
       <div class="happiness-about__gallery" >
       <div class="happiness-about__img" >
-        <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/images-12@3x.png">
+        <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/images-12@3x.png">
       </div>
       <div class="happiness-about__img" >
-        <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/images-4@3x.png">
+        <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/images-4@3x.png">
       </div>
       <div class="happiness-about__img" >
-        <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/images-4@3x.png">
+        <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/images-4@3x.png">
       </div>
       <div class="happiness-about__img" >
-        <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/images-12@3x.png">
+        <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/images-12@3x.png">
       </div>
     </div>
       <div class="happiness-about__text">
       <div class="main-team__icon main-team__icon--initial">
-      <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">
+      <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">
     </div>
     <p class="main-general__title">
     F-SIETE
@@ -40,24 +40,24 @@
     Variables que se analizan en el estudio
     </p>
     <div class="clima-variables__logo" >
-      <img alt="Icon Team" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/logo-orange@3x.png">
+      <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/logo-orange@3x.png">
     </div>
     <div class="clima-variables__center">
       <div class="clima-variables__flex">
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/business.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/business.png">
           <p class="clima-variables__title" >
         Gratificación
           </p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/dance.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/dance.png">
           <p class="clima-variables__title" >
           Disfrute
           </p>
         </div>
         <div class="clima-variables__item">
-          <img alt="Icon variables" data-src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/puzzle.png">
+          <img alt="Icon variables" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/puzzle.png">
           <p class="clima-variables__title" >
           Sentido
           </p>

@@ -5,9 +5,9 @@ wow = new WOW({
 });
 wow.init();
 
-var bLazy = new Blazy({
-  selector: 'img' // all images
-});
+// var bLazy = new Blazy({
+//   selector: 'img' // all images
+// });
 
 $(function () {
   'use strict'

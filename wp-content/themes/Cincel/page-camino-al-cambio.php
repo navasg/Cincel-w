@@ -1,5 +1,30 @@
 <?php get_header(); ?>
-<?php get_template_part('partials/general-banner');?>
+<section class="main-banner general-banner">
+    <div class="main-banner__content">
+      <div class="main-banner__item">
+        <div class="main-banner__text wow animated fadeInRight" style="visibility: visible; animation-delay: .3s  ;">
+          <div class="container">
+            <div class="main-banner__title main-banner__title--center">
+              <p>
+Camino al cambio
+              </p>
+            </div>
+            <div class="main-banner__title main-banner__title--center">
+              <p>
+               Intervención         
+              </p>
+            </div> 
+          
+            
+          </div>
+        </div>
+        <div class="main-banner__img">
+          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/caminoalcambio.jpg">
+        </div>
+      </div>
+    </div>
+    <img class="general-banner__icon"  src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png" >
+  </section>
 <section class="main-services road-about">
     <img class="main-service__icon-small" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png">
     <div class="container padding-top-bottom">

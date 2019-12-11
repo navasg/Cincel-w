@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="main-banner__img">
-          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg-image.png">
+          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/home.jpg">
         </div>
       </div>
       <div class="main-banner__item">
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="main-banner__img">
-          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg-image.png">
+          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-2.png">
         </div>
       </div>
       <div class="main-banner__item">
@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="main-banner__img">
-          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg-image.png">
+          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-3.png">
         </div>
       </div>
       <div class="main-banner__item">
@@ -85,4 +85,5 @@
         </div>
       </div>
     </div>
+    <div class="oval" ></div>
   </section>

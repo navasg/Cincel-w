@@ -1,6 +1,40 @@
 <?php get_header(); ?>
-<?php get_template_part('partials/general-banner');?>
-<section class="questionnaire-about" >
+<section class="main-banner general-banner">
+    <div class="main-banner__content">
+      <div class="main-banner__item">
+        <div class="main-banner__text wow animated fadeInRight" style="visibility: visible; animation-delay: .3s  ;">
+          <div class="container">
+            <div class="main-banner__title main-banner__title--center">
+              <p>
+Cuestionario de
+              </p>
+            </div>
+            <div class="main-banner__title main-banner__title--center">
+              <p>
+               Motivación para el           
+              </p>
+            </div> 
+            <div class="main-banner__title main-banner__title--center">
+              <p>
+               Trabajo          
+              </p>
+            </div> 
+            <div class="main-banner__subtitle main-banner__title--center">
+              <p>
+               CMT       
+              </p>
+            </div> 
+            
+          </div>
+        </div>
+        <div class="main-banner__img">
+          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg-image-2.png">
+        </div>
+      </div>
+    </div>
+    <img class="general-banner__icon"  src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png" >
+  </section>
+  <section class="general-about" ><section class="questionnaire-about" >
   <div class="container" > 
   <div class="container-grid" >
     <div class="questionnaire-about__text" >

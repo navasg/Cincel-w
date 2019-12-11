@@ -288,8 +288,9 @@ body {
   z-index: 2;
   display: flex;
   position: absolute;
-  bottom: 5%;
+  bottom: 24%;
   right: 53%;
+  left: 8.4rem;
   width: 0%;
 }
 
@@ -314,12 +315,12 @@ body {
 .main-banner__content .slick-dots .slick-active button:before {
   color: #00b050;
   opacity: 0.75;
-  width: 35px;
+  /* width: 35px; */
   margin: 0;
 }
 
 .main-banner__content .slick-dots li {
-  margin: 0 10px;
+  /* margin: 0 10px; */
 }
 
 .main-banner__content .slick-dots li button:before {
@@ -1260,6 +1261,7 @@ button:focus {
   display: flex;
   height: 100%;
   align-items: flex-start;
+  background-color: #0091ff66;
   flex-direction: column;
   justify-content: center;
 }

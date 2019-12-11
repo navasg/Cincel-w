@@ -1,6 +1,30 @@
 <?php get_header(); ?>
-<?php get_template_part('partials/general-banner');?>
-<section class="commitment-about" >
+<section class="main-banner general-banner">
+    <div class="main-banner__content">
+      <div class="main-banner__item">
+        <div class="main-banner__text wow animated fadeInRight" style="visibility: visible; animation-delay: .3s  ;">
+          <div class="container">
+            <div class="main-banner__title main-banner__title--center">
+              <p>
+Compromiso laboral
+              </p>
+            </div>
+
+            <div class="main-banner__subtitle main-banner__title--center">
+              <p>
+               Nexos         
+              </p>
+            </div> 
+            
+          </div>
+        </div>
+        <div class="main-banner__img">
+          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/Compromiso.jpg">
+        </div>
+      </div>
+    </div>
+    <img class="general-banner__icon"  src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png" >
+  </section><section class="general-about" ><section class="commitment-about" >
   <div class="container padding-top-bottom" > 
     <div class="main-team__icon main-team__icon--initial">
       <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">

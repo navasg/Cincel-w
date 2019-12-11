@@ -24,11 +24,12 @@ Diseño
           </div>
         </div>
         <div class="main-banner__img">
-          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg-image-2.png">
+          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/pruebaspsicometricas.jpg">
         </div>
       </div>
     </div>
     <img class="general-banner__icon"  src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png" >
+    <img class=""  src="<?php echo get_template_directory_uri(); ?>/assets/img/bgg.svg" >
   </section>
 
 <section class="general-about general-padding__bottom">

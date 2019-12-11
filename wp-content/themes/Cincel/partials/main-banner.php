@@ -85,5 +85,6 @@
         </div>
       </div>
     </div>
-    <div class="oval" ></div>
+    <img class="main-banner__oval"  src="<?php echo get_template_directory_uri(); ?>/assets/img/22.png" >
+
   </section>

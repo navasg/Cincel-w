@@ -1249,6 +1249,13 @@ button:focus {
 
 .main-banner {
   overflow: hidden;
+  position: relative;
+}
+
+.main-banner__oval {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
 }
 
 .main-banner .main-banner__item {
@@ -1272,6 +1279,14 @@ button:focus {
     padding: 0;
     align-items: center;
   }
+
+  .main-banner .main-banner__text .main-banner__title p {
+    font-size: 2.3rem !important;
+  }
+
+  .main-banner .main-banner__text .main-banner__subtitle p {
+    font-size: 1.5rem !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1279,6 +1294,14 @@ button:focus {
     width: 100%;
     padding: 0;
     align-items: center;
+  }
+
+  .main-banner .main-banner__text .main-banner__title p {
+    font-size: 2.3rem !important;
+  }
+
+  .main-banner .main-banner__text .main-banner__subtitle p {
+    font-size: 1.5rem !important;
   }
 }
 

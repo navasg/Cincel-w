@@ -6,6 +6,7 @@
   position: absolute;
   width: 4rem;
   left: 50%;
+  z-index: 1;
   transform: translateX(-50%);
   bottom: 5rem;
 }
@@ -782,6 +783,8 @@
     display: none;
   }
 
+
+
   .terms-and-conditions .main-general__subtitle {
     margin-bottom: 2rem;
   }
@@ -795,4 +798,26 @@
     position: relative;
   }
 
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+
+  .main-banner__oval {
+    bottom: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 997px) {
+
+  .main-banner__oval {
+    bottom: 2rem;
+  }
+}
+
+@media (min-width: 998px) and (max-width: 1024px) {
+
+  .main-banner__oval {
+    bottom: 0rem;
+  }
 }

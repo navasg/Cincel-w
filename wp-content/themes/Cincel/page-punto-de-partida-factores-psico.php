@@ -24,10 +24,13 @@ factores de riesgo
         </div>
         <div class="main-banner__img">
           <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg-image-2.png">
+        
         </div>
       </div>
     </div>
     <img class="general-banner__icon"  src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png" >
+    <img class="main-banner__oval"  src="<?php echo get_template_directory_uri(); ?>/assets/img/22.png" >
+
   </section><section class="general-about" >
 <section class="general-about psychosocial-factors" >
   <div class="container " > 

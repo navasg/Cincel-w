@@ -22,6 +22,8 @@
       </div>
     </div>
     <img class="general-banner__icon"  src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png" >
+    <img class="main-banner__oval"  src="<?php echo get_template_directory_uri(); ?>/assets/img/22.png" >
+
   </section>
 
 <section class="main-services">
@@ -55,6 +57,7 @@
         <div class="main-service__items general-services__items">
           <div class="main-service__card"
             style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/im1.png)">
+            <div class="service-card__mask">
             <div class="service-card__title">
               <p>
                 <span>
@@ -68,10 +71,14 @@
             <p class="service-card__description">
               Lorem Ipsum es simplemente el texto de relleno de las 
             </p>
-            <div class="service-card__mask"></div>
+          
+
+            </div>
           </div>
           <div class="main-service__card"
             style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/im2.png)">
+            <div class="service-card__mask">
+
             <div class="service-card__title">
               <p>
                 <span>
@@ -85,10 +92,12 @@
             <p class="service-card__description">
               Lorem Ipsum es simplemente el texto de relleno de las 
             </p>
-            <div class="service-card__mask"></div>
+           </div>
           </div>
           <div class="main-service__card"
             style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/im3.png)">
+            <div class="service-card__mask">
+
             <div class="service-card__title">
               <p>
                 <span>Felicidad</span> <br>
@@ -101,10 +110,12 @@
             <p class="service-card__description">
               Lorem Ipsum es simplemente el texto de relleno de las  
             </p>
-            <div class="service-card__mask"></div>
+            </div>
           </div>
           <div class="main-service__card"
             style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/im4.png)">
+            <div class="service-card__mask">
+
             <div class="service-card__title">
               <p>
                 <span>Factores de riesgo</span> psicosocial
@@ -117,8 +128,13 @@
               Lorem Ipsum es simplemente el texto de relleno de las  
             </p>
           </div>
+          </div>
+          
           <div class="main-service__card"
+          
             style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/im5.png)">
+            <div class="service-card__mask">
+
             <div class="service-card__title">
               <p>
                 <span>Cuestionario de</span> motivación
@@ -131,6 +147,7 @@
               Lorem Ipsum es simplemente el texto de relleno de las  
             </p>
           </div>
+        </div>
         </div>
         
       </div>

@@ -89,93 +89,93 @@
               </a>
               <ul class="navbar-2">
                 <li class="level-2">
-                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/punto-de-partida" role="button">
+                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/punto-de-partida" role="button">
                     Punto de Partida
                   </a>
                   <ul class="navbar-3">
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/punto-de-partida-clima-org" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/punto-de-partida-clima-org" role="button">
                         Clima Organizacional
                       </a>           
                   </li>    
                   
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/punto-de-partida-compromiso-laboral" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/punto-de-partida-compromiso-laboral" role="button">
                         Compromiso Laboral
                       </a>           
                     </li>  
                     <li>
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/punto-de-partida-felicidad-laboral" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/punto-de-partida-felicidad-laboral" role="button">
                         Felicidad Laboral
                       </a>           
                     </li>  
                     <li>
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>//punto-de-partida-factores-psico" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/punto-de-partida-factores-psico" role="button">
                         Factores de Riesgo
                       </a>           
                     </li>    
                     <li>
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/punto-de-partida-factores-cuestionario-trabajo" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/punto-de-partida-factores-cuestionario-trabajo" role="button">
                         Cuestionario de Motivación
                       </a>           
                     </li>                  
                   </ul>
                 </li>
                 <li class="level-2">
-                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/camino-al-cambio" role="button">
+                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/camino-al-cambio" role="button">
                     Camino al Cambio
                   </a>
                   <ul class="navbar-3">
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
                         Lider Phd
                       </a>           
                     </li>    
                   
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
                         Ruta 5e
                       </a>           
                     </li>  
                     <li>
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
                         Formación con sentido
                       </a>           
                     </li>              
                   </ul>
                 </li>
                 <li class="level-2">
-                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/a-la-medida" role="button">
+                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/a-la-medida" role="button">
                     A la medida
                   </a>
                   <ul class="navbar-3">
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
                         Diseño
                       </a>           
                       <ul class="navbar-4">
                   <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/a-la-medida-diseno-modelo-cultura-gestion" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/a-la-medida-diseno-modelo-cultura-gestion" role="button">
                         Modelo de Gestión de desempeño
                       </a>           
                     </li>    
                   <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
                         Cultura
                       </a>           
                     </li> 
                     <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
                         Gestión por competencia
                       </a>           
                     </li>  
                     <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/a-la-medida-diseno-pruebas-a-medida" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/a-la-medida-diseno-pruebas-a-medida" role="button">
                         Pruebas a medida para las organizaciones
                       </a>           
                     </li>    
                     <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
                         Verificación y ajuste de las pruebas
                       </a>           
                     </li>          
@@ -183,31 +183,31 @@
 
                     </li>    
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/a-la-medida-investigacion" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/a-la-medida-investigacion" role="button">
                         Investigación
                       </a>           
                     </li>          
                   </ul>
                 </li>
                 <li class="level-2">
-                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/espacios-con-ciencia" role="button">
+                  <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/espacios-con-ciencia" role="button">
                     Espacios con ciencia
                   </a>
                   <ul class="navbar-3">
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/espacios-con-ciencia-lo-decimos" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/espacios-con-ciencia-lo-decimos" role="button">
                         Lo decimos
                         </a>           
 
                         <ul class="navbar-4">
                   <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
                         Lo decimos talleres
                       </a>           
                     </li>    
                   
                     <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
                         Lo decimos conferencias
                       </a>           
                     </li>          
@@ -215,12 +215,12 @@
                     </li>    
                   
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/espacios-con-ciencia-lo-escribimos" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/espacios-con-ciencia-lo-escribimos" role="button">
                         Lo escribimos
                       </a>           
                       <ul class="navbar-4">
                   <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
                         Lo escribimos libros
                       </a>           
                     </li>        
@@ -232,14 +232,14 @@
             </li>
             
             <li class=" nav-item">
-              <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/"
+              <a aria-expanded="false" class="nav-link"  href="#"
                 role="button">
                 Nuestro Valor
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data="offcanvas"
-                href="https://www.elempleo.com/sitios-empresariales/colombia/consultores-organizacionales" role="button"
+                href="#" role="button"
                 target="_blank">
                 Nosotros
               </a>

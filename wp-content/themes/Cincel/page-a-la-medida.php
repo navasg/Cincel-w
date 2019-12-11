@@ -29,6 +29,8 @@ A la medida
       </div>
     </div>
     <img class="general-banner__icon"  src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png" >
+    <img class="main-banner__oval"  src="<?php echo get_template_directory_uri(); ?>/assets/img/22.png" >
+
   </section>
 
 <section class="main-services road-about">

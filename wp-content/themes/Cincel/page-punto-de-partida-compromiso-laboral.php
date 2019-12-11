@@ -24,7 +24,12 @@ Compromiso laboral
       </div>
     </div>
     <img class="general-banner__icon"  src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png" >
-  </section><section class="general-about" ><section class="commitment-about" >
+    <img class="main-banner__oval"  src="<?php echo get_template_directory_uri(); ?>/assets/img/22.png" >
+
+  </section>
+  
+  
+  <section class="commitment-about" >
   <div class="container padding-top-bottom" > 
     <div class="main-team__icon main-team__icon--initial">
       <img alt="Icon Team" src="http://localhost/Cincel-w/wp-content/themes/Cincel/assets/img/icon-idea@3x.png">

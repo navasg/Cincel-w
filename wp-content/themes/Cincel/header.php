@@ -127,13 +127,13 @@
                   </a>
                   <ul class="navbar-3">
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/camino-al-cambio-lider-phd" role="button">
                         Lider Phd
                       </a>           
                     </li>    
                   
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/camino-al-cambio-lider-ruta-5e" role="button">
                         Ruta 5e
                       </a>           
                     </li>  
@@ -245,7 +245,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a aria-expanded="false" class="nav-link"  href="#"
+              <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/blog"
                 role="button">
                 Blog
               </a>

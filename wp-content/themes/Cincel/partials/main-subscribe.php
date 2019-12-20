@@ -1,5 +1,6 @@
 <section class="main-subscribe">
     <img class="main-subscribe__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-bg@3x.png">
+    <div class="main-subscribe__mask" >
     <div class="container padding-top-bottom">
       <div class="container-grid">
         <div class="main-subscribe__item">
@@ -24,5 +25,6 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>

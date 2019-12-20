@@ -36,7 +36,7 @@ Cuestionario de
     <img class="main-banner__oval"  src="<?php echo get_template_directory_uri(); ?>/assets/img/22.png" >
 
   </section>
-  <section class="general-about" ><section class="questionnaire-about" >
+  <section class="general-about" >
   <div class="container" > 
   <div class="container-grid" >
     <div class="questionnaire-about__text" >

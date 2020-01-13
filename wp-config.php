@@ -62,6 +62,7 @@ define( 'AUTH_SALT',        'k>97nw`ctFtPCwGs0DL<?i>&bYa ne^#Ug|jKN}rPam2vpW=}8^
 define( 'SECURE_AUTH_SALT', '1 {6$t7|HH{&JsO,ejX]uS%M>;0,)TJ%:v<4^~#,Sm.9kzQdk4-^n;[W_J*dY8g{' );
 define( 'LOGGED_IN_SALT',   '(}hc$V`*r 01ZKx4@@]vhkoDf8wy[@zh@=SIj(uthzIK)^+hYe!a&Y#g/TGbggNg' );
 define( 'NONCE_SALT',       'p=QwMQ]S!bv5nJ+i0F&g3&0A1vo$)a[.3SLA|SkQrk^mA)gZF)/#!8SZP$^B:?ho' );
+define('FS_METHOD', 'direct');
 
 /**#@-*/
 

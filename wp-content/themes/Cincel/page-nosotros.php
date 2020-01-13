@@ -299,12 +299,16 @@ Entre nuestros clientes contamos con organizaciones altamente desarrolladas y ex
       <img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/woman.png">
       </div>
       <div class="general-about__text general-about__text--center">
+      <img class="icon-phd mt-0" src="<?php echo get_template_directory_uri(); ?>/assets/img/user.png">
+
       <p class="main-general__description main-general__description--semibold">
            Misión
                 </p>
                 <p class="main-general__description">
                 Ayudamos a que, personas y organizaciones, alcancen sus objetivos estratégicos, a través de la gestión científica de los asuntos humanos.  
                 </p>
+                <img class="icon-phd mt-0" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_3@3x.png">
+
                 <p class="main-general__description main-general__description--semibold">
            Visión
                 </p>

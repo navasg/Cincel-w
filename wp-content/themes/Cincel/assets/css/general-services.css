@@ -887,6 +887,7 @@
 
 .icon-phd {
   width: 2.5rem;
+  height: 2rem;
   object-fit: contain;
   margin: 2rem 0 1rem 0;
 }
@@ -1444,8 +1445,26 @@
   width: 5rem;
 }
 
+
+
 .main-team--about .padding-top-bottom {
   padding-bottom: 11rem;
   padding-top: 15rem;
+}
 
+@media (min-width: 0px) and (max-width: 767px) {
+
+  .about .container-grid {
+    grid-template-columns: 100%;
+    gap: 2rem;
+  }
+
+  .main-team--about .padding-top-bottom {
+    padding-bottom: 11rem;
+    padding-top: 0;
+  }
+
+  .about-mision--icon {
+    display: none;
+  }
 }

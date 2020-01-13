@@ -28,6 +28,10 @@
   cursor: pointer;
 }
 
+.img-small {
+  width: 25rem !important;
+}
+
 .btn--small {
   padding: 8px 12px;
   min-width: 65px;
@@ -686,6 +690,11 @@ body :focus {
   font-size: 1.5rem !important;
 }
 
+.main-general__title--extrasmall {
+  text-transform: none !important;
+  font-size: 1.2rem !important;
+}
+
 .main-general__button {
   box-shadow: 3.2px 3.8px 9.5px 0.5px rgba(11, 6, 6, 0.2);
   background-color: #f47321;
@@ -934,6 +943,10 @@ button:focus {
 
 .main-general__description--center {
   text-align: center;
+}
+
+.main-general__description--italic {
+  font-style: italic;
 }
 
 .main-general__description--white {
@@ -1599,7 +1612,7 @@ button:focus {
 }
 
 .main-team__icon img {
-  width: 5rem;
+  width: 5rem !important;
 }
 
 .main-team .container-grid {
@@ -1692,7 +1705,7 @@ button:focus {
   }
 }
 
-.main-clients .main-clients__width {
+.main-clients__width {
   width: 50%;
   margin-top: 1rem;
 }

@@ -1,5 +1,29 @@
 <?php get_header(); ?>
-<?php get_template_part('partials/general-banner');?>
+<section class="main-banner general-banner">
+    <div class="main-banner__content">
+      <div class="main-banner__item">
+        <div class="main-banner__text wow animated fadeInRight" style="visibility: visible; animation-delay: .3s  ;">
+          <div class="container">
+            <div class="main-banner__title main-banner__title--center">
+              <p>
+Diseño
+              </p>
+            </div>
+
+        
+            
+          </div>
+        </div>
+        <div class="main-banner__img">
+          <img alt="Imagen Banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/diseño.jpg">
+        </div>
+      </div>
+    </div>
+    <img class="general-banner__icon"  src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png" >
+    <img class="main-banner__oval"  src="<?php echo get_template_directory_uri(); ?>/assets/img/22.png" >
+
+  </section>
+
 <section class="general-about" >
   <div class="container " > 
     <div class="container-grid" >
@@ -28,71 +52,77 @@
 <section class="main-services design-services">
 <img class="general-form__bg" src="<?php echo get_template_directory_uri(); ?>/assets/img/bg_2@3x.png">
 
-  <img class="main-service__icon-small" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_7@3x.png">
   <div class="container padding-top-bottom">
     <div class="d-flex justify-content-center">
       <div class="main-services__width">
 
         <div class="main-service__items general-services__items">
-          <div class="main-service__card"
-            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/serv1.png)">
-            <div class="service-card__title service-card__title--center service-card__title--lower ">
-              <p>
-                <span>Módelos de gestión </span> de desempeño
-              </p>
-            </div>
-            <p class="service-card__description">
-            Lorem Ipsum es simplemente el texto de relleno de las             </p>
-            <div class="service-card__mask"></div>
-          </div>
-          <div class="main-service__card"
-            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/serv2.png)">
-            <div class="service-card__title service-card__title--center service-card__title--lower ">
-              <p>
-                <span>
-                  Cultura
-                </span>
-              </p>
           
-            </div>
-            <p class="service-card__description">
-            Lorem Ipsum es simplemente el texto de relleno de las             </p>
-            <div class="service-card__mask"></div>
-          </div>
-          <div class="main-service__card"
-            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/serv3.png)">
-            <div class="service-card__title service-card__title--center service-card__title--lower ">
+        
+        <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/serv1.png)">
+            <div class="service-card__mask">
+            <div class="service-card__title service-card__title--center service-card__title--lower">
               <p>
-                <span>Gestión por </span>competencias
-              </p>
-           
+                <span>Módelos de gestión</span> de desempeño
+     
             </div>
             <p class="service-card__description">
-            Lorem Ipsum es simplemente el texto de relleno de las 
+            Lorem Ipsum es simplemente el texto de relleno de las
             </p>
-            <div class="service-card__mask"></div>
+            </div>
           </div>
-          <div class="main-service__card"
-            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/serv4.png)">
-            <div class="service-card__title service-card__title--center service-card__title--lower ">
+
+
+          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/serv2.png)">
+            <div class="service-card__mask">
+            <div class="service-card__title service-card__title--center service-card__title--lower">
               <p>
-                <span>Pruebas a medida </span> para las organizaciones
-              </p>
-       
+                <span>Cultura</span>
+     
             </div>
             <p class="service-card__description">
-Lorem Ipsum es simplemente el texto de relleno de las             </p>
+            Lorem Ipsum es simplemente el texto de relleno de las
+            </p>
+            </div>
           </div>
-          <div class="main-service__card"
-            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/serv5.png)">
-            <div class="service-card__title service-card__title--center service-card__title--lower ">
+
+
+          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/serv3.png)">
+            <div class="service-card__mask">
+            <div class="service-card__title service-card__title--center service-card__title--lower">
               <p>
-                <span>Verificación y ajustes de las pruebas  </span>
-              </p>
-       
+                <span>Gestión por</span> competencias
+     
             </div>
             <p class="service-card__description">
-Lorem Ipsum es simplemente el texto de relleno de las             </p>
+            Lorem Ipsum es simplemente el texto de relleno de las
+            </p>
+            </div>
+          </div>
+
+          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/serv4.png)">
+            <div class="service-card__mask">
+            <div class="service-card__title service-card__title--center service-card__title--lower">
+              <p>
+                <span>Pruebas a medida</span> para las organizaciones
+     
+            </div>
+            <p class="service-card__description">
+            Lorem Ipsum es simplemente el texto de relleno de las
+            </p>
+            </div>
+          </div>
+
+          <div class="main-service__card" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/serv5.png)">
+            <div class="service-card__mask">
+            <div class="service-card__title service-card__title--center service-card__title--lower">
+              <p>
+                <span>Verificación y ajustes de las pruebas</span>
+            </div>
+            <p class="service-card__description">
+            Lorem Ipsum es simplemente el texto de relleno de las
+            </p>
+            </div>
           </div>
         </div>
       </div>

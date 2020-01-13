@@ -138,7 +138,7 @@
                       </a>           
                     </li>  
                     <li>
-                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/camino-al-cambio-formacion-con-sentido" role="button">
                         Formación con sentido
                       </a>           
                     </li>              
@@ -150,7 +150,7 @@
                   </a>
                   <ul class="navbar-3">
                   <li class="level-3">
-                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/a-la-medida-diseno" role="button">
                         Diseño
                       </a>           
                       <ul class="navbar-4">
@@ -201,13 +201,13 @@
 
                         <ul class="navbar-4">
                   <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/espacios-con-ciencia-lo-decimos-talleres" role="button">
                         Lo decimos talleres
                       </a>           
                     </li>    
                   
                     <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/espacios-con-ciencia-lo-decimos-conferencias" role="button">
                         Lo decimos conferencias
                       </a>           
                     </li>          
@@ -239,8 +239,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" data="offcanvas"
-                href="#" role="button"
-                target="_blank">
+                href="<?php echo get_bloginfo('url'); ?>/index.php/nosotros" role="button">
                 Nosotros
               </a>
             </li>

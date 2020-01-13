@@ -1031,6 +1031,10 @@
   height: 35rem;
 }
 
+
+
+
+
 .blog-all__img {
   height: 55%;
   width: 100%;
@@ -1062,6 +1066,7 @@
   display: -moz-box;
   -webkit-line-clamp: 2;
   text-transform: uppercase;
+  color: #494949;
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   overflow: hidden;
@@ -1454,9 +1459,9 @@
 
 @media (min-width: 0px) and (max-width: 767px) {
 
-  .about .container-grid {
+  .about .container-grid,
+  .about-mision .container-grid {
     grid-template-columns: 100%;
-    gap: 2rem;
   }
 
   .main-team--about .padding-top-bottom {
@@ -1466,5 +1471,140 @@
 
   .about-mision--icon {
     display: none;
+  }
+
+  .about-mision {
+    padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 997px) {
+  .about-mision {
+    padding-bottom: 5rem;
+  }
+
+  .main-team--about .padding-top-bottom {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+}
+
+.contact-us .container-grid {
+  grid-template-columns: 1fr 32%;
+  gap: 3rem;
+}
+
+.contact-us input {
+  width: 45%;
+  margin: 2rem 1rem;
+  border: none;
+  border-bottom: 0.5px solid;
+
+}
+
+.contact-us textarea {
+  width: 100%;
+  margin: 2rem 1rem;
+  border: none;
+  border-bottom: 0.5px solid;
+
+}
+
+.contact-us a {
+  margin: 2rem 1rem;
+
+
+}
+
+.form-contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-us input::placeholder,
+.contact-us textarea::placeholder {
+  color:
+    #979797;
+}
+
+.contact-us__list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-us__list img {
+  width: 1.5rem;
+  /* position: absolute; */
+  margin-left: -46px;
+  margin-right: 6px;
+}
+
+.contact-us__list li {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.contact-us__card {
+  padding: 1rem 2rem 1rem 5rem;
+  border: 1px solid #f47321;
+  border-radius: 1rem;
+}
+
+.contact-us__card a {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contact-us__subtitle {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.contact-us .padding-top-bottom {
+  padding-bottom: 0;
+}
+
+
+.contact-us__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.google-maps {
+  transform: translateY(8rem);
+  position: relative;
+  z-index: -1;
+}
+
+.google-maps__icon {
+  position: absolute;
+  top: 3rem;
+  left: 31%;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .contact-us .container-grid {
+    grid-template-columns: 100%;
+
+
+  }
+
+  .form-contact input,
+  .form-contact textarea {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 997px) {
+  .contact-us .container-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form-contact input,
+  .form-contact textarea {
+    width: 100%;
+    margin: 2rem 0;
   }
 }

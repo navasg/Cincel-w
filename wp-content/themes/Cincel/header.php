@@ -58,20 +58,20 @@
       <div class="container">
         <div class="main-brand__top">
           <div class="main-brand">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="<?php echo get_bloginfo('url'); ?>/index.php">
               <img alt="Logo Cincel" id="iso" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo@3x.png">
             </a>
           </div>
         </div>
         <div class="main-brand__fixed">
           <div class="main-brand">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="<?php echo get_bloginfo('url'); ?>/index.php">
               <img alt="Logo Cincel" id="iso" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo@3x.png">
             </a>
           </div>
         </div>
         <div class="main-brand brand-responsive">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="<?php echo get_bloginfo('url'); ?>/index.php">
             <img alt="Logo Cincel" id="iso" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo@3x.png">
           </a>
           <button class="navbar-toggler p-2 border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas"
@@ -253,7 +253,7 @@
               <a class="nav-link" data="offcanvas" href="about.html">Zona de Clientes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link main-general__button" data="offcanvas" href="about.html">Contáctanos</a>
+              <a class="nav-link main-general__button" data="offcanvas" href="<?php echo get_bloginfo('url'); ?>/index.php/contactanos">Contáctanos</a>
             </li>
           </ul>
         </div>

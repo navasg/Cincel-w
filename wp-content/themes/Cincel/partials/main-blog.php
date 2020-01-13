@@ -25,8 +25,8 @@
 
             </p>
             <div class="main-blog__buttons">
-              <a class="main-general__button" href="">Ver Más</a>
-              <a class="main-general__button" href="">Ver todos</a>
+              <a class="main-general__button" href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna">Ver Más</a>
+              <a class="main-general__button" href="<?php echo get_bloginfo('url'); ?>/index.php/blog">Ver todos</a>
             </div>
           </div>
         </div>

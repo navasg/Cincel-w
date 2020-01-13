@@ -108,6 +108,7 @@ ofrecen valor           </p>
   
       <div class="container-grid" >
         <div class="blog-all__item" >
+          <a href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna">
           <div class="blog-all__img" >
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-1.jpg">
           </div>
@@ -119,11 +120,13 @@ ofrecen valor           </p>
             Las continuas exigencias a las que se ven sometidas las organizaciones acarrean nuevas trasformaciones en los modos y configuraciones del trabajo. De esta manera, se han originado desajustes entre el rendimiento de las personas y los requerimientos que los puestos de trabajo demandan. Estas alteraciones promueven la aparición de fenómenos desfavorecedores para las personas en tanto impactan su bienestar, satisfacción, desempeño y calidad de vida laboral, por consiguiente la empresa se ve afectada en los índices de productividad.
             </p>
             <div class="mt-btn">
-              <a  href="" class="main-general__button" >Ver Más</a>
+              <a  href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna" class="main-general__button" >Ver Más</a>
             </div>
           </div>  
+</a>
         </div> 
         <div class="blog-all__item" >
+          <a href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna">
           <div class="blog-all__img" >
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-2.jpg">
           </div>
@@ -139,11 +142,13 @@ ofrecen valor           </p>
             Exploremos cada uno de estos argumentos para ver qué está detrás de ellos.
             </p>
             <div class="mt-btn">
-              <a  href="" class="main-general__button" >Ver Más</a>
+              <a  href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna" class="main-general__button" >Ver Más</a>
             </div>
           </div>  
+</a>
         </div> 
         <div class="blog-all__item" >
+          <a href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna">
           <div class="blog-all__img" >
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-3.jpg">
           </div>
@@ -155,9 +160,10 @@ ofrecen valor           </p>
             La motivación en el trabajo ha desviado su atención del establecimiento de metas, hacia la comprensión de los procesos más amplios de autorregulación en los que las metas son sólo un componente. La autorregulación se refiere a la capacidad que cada uno posee para guiar las actividades a lo largo del tiempo y a través de circunstancias cambiantes.
             </p>
             <div class="mt-btn">
-              <a  href="" class="main-general__button" >Ver Más</a>
+              <a  href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna" class="main-general__button" >Ver Más</a>
             </div>
           </div>  
+</a>
         </div> 
         
       </div>

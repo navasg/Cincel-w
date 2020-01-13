@@ -41,6 +41,7 @@ Blog            </p>
       </div>
       <div class="container-grid" >
         <div class="blog-all__item" >
+          <a href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna">
           <div class="blog-all__img" >
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-1.jpg">
           </div>
@@ -52,11 +53,13 @@ Blog            </p>
             Las continuas exigencias a las que se ven sometidas las organizaciones acarrean nuevas trasformaciones en los modos y configuraciones del trabajo. De esta manera, se han originado desajustes entre el rendimiento de las personas y los requerimientos que los puestos de trabajo demandan. Estas alteraciones promueven la aparición de fenómenos desfavorecedores para las personas en tanto impactan su bienestar, satisfacción, desempeño y calidad de vida laboral, por consiguiente la empresa se ve afectada en los índices de productividad.
             </p>
             <div class="mt-btn">
-              <a  href="" class="main-general__button" >Ver Más</a>
+              <a  href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna" class="main-general__button" >Ver Más</a>
             </div>
           </div>  
+          </a>
         </div> 
         <div class="blog-all__item" >
+          <a href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna">
           <div class="blog-all__img" >
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-2.jpg">
           </div>
@@ -72,11 +75,13 @@ Blog            </p>
             Exploremos cada uno de estos argumentos para ver qué está detrás de ellos.
             </p>
             <div class="mt-btn">
-              <a  href="" class="main-general__button" >Ver Más</a>
+              <a  href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna" class="main-general__button" >Ver Más</a>
             </div>
+</a>
           </div>  
         </div> 
         <div class="blog-all__item" >
+          <a href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna">
           <div class="blog-all__img" >
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-3.jpg">
           </div>
@@ -88,11 +93,13 @@ Blog            </p>
             La motivación en el trabajo ha desviado su atención del establecimiento de metas, hacia la comprensión de los procesos más amplios de autorregulación en los que las metas son sólo un componente. La autorregulación se refiere a la capacidad que cada uno posee para guiar las actividades a lo largo del tiempo y a través de circunstancias cambiantes.
             </p>
             <div class="mt-btn">
-              <a  href="" class="main-general__button" >Ver Más</a>
+              <a  href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna" class="main-general__button" >Ver Más</a>
             </div>
+</a>
           </div>  
         </div> 
         <div class="blog-all__item" >
+          <a href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna">
           <div class="blog-all__img" >
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog.png">
           </div>
@@ -104,11 +111,13 @@ Blog            </p>
             El saber popular y la intuición nos dice que las personas más satisfechas con su trabajo se desempeñan mejor. Quiere eso decir que quienes hacen una evaluación positiva de su trabajo, al punto que llegan a considerar que este satisface sus expectativas, son más eficientes en lo que hacen. ¿Es esto ceirto?
             </p>
             <div class="mt-btn">
-              <a  href="" class="main-general__button" >Ver Más</a>
+              <a  href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna" class="main-general__button" >Ver Más</a>
             </div>
+</a>
           </div>  
         </div> 
         <div class="blog-all__item" >
+          <a href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna">
           <div class="blog-all__img" >
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog.png">
           </div>
@@ -120,11 +129,13 @@ Blog            </p>
             La compensación incluye todas las recompensas derivadas del  trabajo que se realiza y de la vinculación con la organización.
             </p>
             <div class="mt-btn">
-              <a  href="" class="main-general__button" >Ver Más</a>
+              <a  href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna" class="main-general__button" >Ver Más</a>
             </div>
+</a>
           </div>  
         </div> 
         <div class="blog-all__item" >
+          <a href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna">
           <div class="blog-all__img" >
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog.png">
           </div>
@@ -136,8 +147,9 @@ Blog            </p>
             “Si es Millennial seguro deseará viajar por el mundo, trabajará máximo dos años en una empresa, estará preocupado por el medio ambiente, será experto en el manejo de las redes sociales y no querrá comprar carro”. Esas son solo algunas de las muchas afirmaciones que hacemos acerca de las personas de esa generación, pero ¿Qué tan ciertas son?
             </p>
             <div class="mt-btn">
-              <a  href="" class="main-general__button" >Ver Más</a>
+              <a  href="<?php echo get_bloginfo('url'); ?>/index.php/blog-interna" class="main-general__button" >Ver Más</a>
             </div>
+</a>
           </div>  
         </div>  
       </div>

@@ -1578,8 +1578,12 @@
 
 .google-maps__icon {
   position: absolute;
-  top: 3rem;
+  top: -7rem;
   left: 31%;
+}
+
+.google-maps iframe {
+  width: 100%;
 }
 
 @media (min-width: 0px) and (max-width: 767px) {

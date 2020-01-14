@@ -175,7 +175,7 @@
                       </a>           
                     </li>    
                     <li class="level-4">
-                      <a aria-expanded="false" class="nav-link"  href="#" role="button">
+                      <a aria-expanded="false" class="nav-link"  href="<?php echo get_bloginfo('url'); ?>/index.php/a-la-medida-diseno-verificacion" role="button">
                         Verificación y ajuste de las pruebas
                       </a>           
                     </li>          
